@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppChicoVet.Pages.MyPets"
+             Title="MyPets">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+             <Image
+                x:Name="MainIcon"
+                Source="pets.png"
+                WidthRequest="100"
+                HeightRequest="100"
+                HorizontalOptions="Center"
+                Margin="0, 40, 0, 10"/>
+
+             <Label
+                x:Name="MainTitle"
+                FontSize="Header"
+                Text="Meus Pets"
+                HorizontalTextAlignment="Center"
+                FontAttributes="Bold"
+                TranslationY="-10"
+                TextColor="#513635"
+                Margin="0, -20, 0, 0"/>
+
+            <Label
+                 FontSize="20"
+                 Text="+ Adicionar pet"
+                 HorizontalOptions="Center"
+                 HorizontalTextAlignment="Center"
+                 Margin="0, -10, 0, -25">
+                
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ChangingPageNewPet"/>
+                    </Label.GestureRecognizers>
+
+            </Label>
+
+
+            <FlexLayout 
+                Wrap="Wrap" 
+                JustifyContent="Center" 
+                AlignItems="Center" 
+                Direction="Row" 
+                Padding="2"
+                MaximumWidthRequest="1100">
+
+                <!-- =========================  Cards 1  ========================= -->
+                <Frame
+                    BackgroundColor="#826160"
+                    Padding="10"
+                    WidthRequest="350"
+                    HeightRequest="185"
+                    CornerRadius="10"
+                    Margin="10"
+                    HasShadow="True">
+
+                    <StackLayout 
+                        Spacing="10">
+
+                        <Image 
+                            Source="canine.png" 
+                            Aspect="Fill" 
+                            HeightRequest="150" 
+                            WidthRequest="150"
+                            IsOpaque="True"
+                            TranslationX="-80"
+                            TranslationY="5"/>
+
+                        <Label 
+                            Text="(Nome)" 
+                            TextColor="White" 
+                            FontAttributes="Bold" 
+                            FontSize="Medium" 
+                            HorizontalOptions="Center"
+                            TranslationY="-145"
+                            TranslationX="80"/>
+
+                        <Label 
+                            Text="Status: Banho e Tosa" 
+                            TextColor="White" 
+                            FontSize="15" 
+                            HorizontalTextAlignment="Center"
+                            HorizontalOptions="Center"
+                            TranslationY="-145"
+                            TranslationX="80"
+                            WidthRequest="100"/>
+
+                        <Button 
+                            Text="Detalhes" 
+                            BackgroundColor="#513635" 
+                            TextColor="White" 
+                            WidthRequest="100" 
+                            TranslationY="-140"
+                            TranslationX="80"/>
+                    </StackLayout>
+
+                </Frame>
+
+                <!-- =========================  Cards 2  ========================= -->
+                <Frame
+                    BackgroundColor="#826160"
+                    Padding="10"
+                    WidthRequest="350"
+                    HeightRequest="185"
+                    CornerRadius="10"
+                    Margin="10"
+                    HasShadow="True">
+
+                    <StackLayout 
+                        Spacing="10">
+
+                        <Image 
+                            Source="feline.png" 
+                            Aspect="Fill" 
+                            HeightRequest="150" 
+                            WidthRequest="150"
+                            IsOpaque="True"
+                            TranslationX="-80"
+                            TranslationY="5"/>
+
+                        <Label 
+                            Text="(Nome)" 
+                            TextColor="White" 
+                            FontAttributes="Bold" 
+                            FontSize="Medium" 
+                            HorizontalOptions="Center"
+                            TranslationY="-145"
+                            TranslationX="80"/>
+
+                        <Label 
+                            Text="Status: Vacina" 
+                            TextColor="White" 
+                            FontSize="15" 
+                            HorizontalTextAlignment="Center"
+                            HorizontalOptions="Center"
+                            TranslationY="-145"
+                            TranslationX="80"
+                            WidthRequest="100"/>
+
+                        <Button 
+                            Text="Detalhes" 
+                            BackgroundColor="#513635" 
+                            TextColor="White" 
+                            WidthRequest="100" 
+                            TranslationY="-140"
+                            TranslationX="80"/>
+                    </StackLayout>
+
+                </Frame>
+
+                <!-- =========================  Cards 3  ========================= -->
+                <Frame
+                    BackgroundColor="#826160"
+                    Padding="10"
+                    WidthRequest="350"
+                    HeightRequest="185"
+                    CornerRadius="10"
+                    Margin="10"
+                    HasShadow="True">
+
+                    <StackLayout 
+                        Spacing="10">
+
+                        <Image 
+                            Source="bird.png" 
+                            Aspect="Fill" 
+                            HeightRequest="150" 
+                            WidthRequest="150"
+                            IsOpaque="True"
+                            TranslationX="-80"
+                            TranslationY="5"/>
+
+                        <Label 
+                            Text="(Nome)" 
+                            TextColor="White" 
+                            FontAttributes="Bold" 
+                            FontSize="Medium" 
+                            HorizontalOptions="Center"
+                            TranslationY="-145"
+                            TranslationX="80"/>
+
+                        <Label 
+                            Text="Status: Treinamento" 
+                            TextColor="White" 
+                            FontSize="15" 
+                            HorizontalTextAlignment="Center"
+                            HorizontalOptions="Center"
+                            TranslationY="-145"
+                            TranslationX="80"
+                            WidthRequest="100"/>
+
+                        <Button 
+                            Text="Detalhes" 
+                            BackgroundColor="#513635" 
+                            TextColor="White" 
+                            WidthRequest="100" 
+                            TranslationY="-140"
+                            TranslationX="80"/>
+                    </StackLayout>
+
+                </Frame>
+
+                <!-- =========================  Cards 4  ========================= -->
+                <Frame
+                    BackgroundColor="#826160"
+                    Padding="10"
+                    WidthRequest="350"
+                    HeightRequest="185"
+                    CornerRadius="10"
+                    Margin="10"
+                    HasShadow="True">
+
+                    <StackLayout 
+                        Spacing="10">
+
+                        <Image 
+                            Source="turtle.png" 
+                            Aspect="Fill" 
+                            HeightRequest="150" 
+                            WidthRequest="150"
+                            IsOpaque="True"
+                            TranslationX="-80"
+                            TranslationY="5"/>
+
+                        <Label 
+                            Text="(Nome)" 
+                            TextColor="White" 
+                            FontAttributes="Bold" 
+                            FontSize="Medium" 
+                            HorizontalOptions="Center"
+                            TranslationY="-145"
+                            TranslationX="80"/>
+
+                        <Label 
+                            Text="Status: Pronto para buscar" 
+                            TextColor="White" 
+                            FontSize="15" 
+                            HorizontalTextAlignment="Center"
+                            HorizontalOptions="Center"
+                            TranslationY="-145"
+                            TranslationX="80"
+                            WidthRequest="100"/>
+
+                        <Button 
+                            Text="Detalhes" 
+                            BackgroundColor="#513635" 
+                            TextColor="White" 
+                            WidthRequest="100" 
+                            TranslationY="-140"
+                            TranslationX="80"/>
+                    </StackLayout>
+
+                </Frame>
+
+                <!-- =========================  Cards 5  ========================= -->
+                <Frame
+                    BackgroundColor="#826160"
+                    Padding="10"
+                    WidthRequest="350"
+                    HeightRequest="185"
+                    CornerRadius="10"
+                    Margin="10"
+                    HasShadow="True">
+
+                    <StackLayout 
+                        Spacing="10">
+
+                        <Image 
+                            Source="canine.png" 
+                            Aspect="Fill" 
+                            HeightRequest="150" 
+                            WidthRequest="150"
+                            IsOpaque="True"
+                            TranslationX="-80"
+                            TranslationY="5"/>
+
+                        <Label 
+                            Text="(Nome)" 
+                            TextColor="White" 
+                            FontAttributes="Bold" 
+                            FontSize="Medium" 
+                            HorizontalOptions="Center"
+                            TranslationY="-145"
+                            TranslationX="80"/>
+
+                        <Label 
+                            Text="Status: Livre" 
+                            TextColor="White" 
+                            FontSize="15" 
+                            HorizontalTextAlignment="Center"
+                            HorizontalOptions="Center"
+                            TranslationY="-145"
+                            TranslationX="80"
+                            WidthRequest="100"/>
+
+                        <Button 
+                            Text="Detalhes" 
+                            BackgroundColor="#513635" 
+                            TextColor="White" 
+                            WidthRequest="100" 
+                            TranslationY="-140"
+                            TranslationX="80"/>
+                    </StackLayout>
+
+                </Frame>
+
+            </FlexLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

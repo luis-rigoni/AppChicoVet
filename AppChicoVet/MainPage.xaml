@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppChicoVet.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Image
+                x:Name="MainIcon"
+                Source="appicon.png"
+                WidthRequest="150"
+                HeightRequest="150"
+                HorizontalOptions="Center"
+                Margin="0, 40, 0, 0"/>
+
+            <Label
+                x:Name="MainTitle"
+                FontSize="Header"
+                Text="Chico Veterinário"
+                HorizontalTextAlignment="Center"
+                FontAttributes="Bold"
+                TranslationY="-20"
+                TextColor="#513635"
+                Margin="0, -30, 0, 0"/>
+
+            <FlexLayout 
+                Wrap="Wrap" 
+                JustifyContent="Center" 
+                AlignItems="Center" 
+                Direction="Row" 
+                Padding="2">
+
+                <!-- =========================  Conta  ========================= -->
+                <Frame
+                BackgroundColor="#826160"
+                Padding="10"
+                WidthRequest="250"
+                HeightRequest="250"
+                CornerRadius="10"
+                Margin="10"
+                HasShadow="True">
+
+                    <StackLayout 
+                        Spacing="10">
+                        
+                        <Image 
+                            Source="gotoaccount.jpg" 
+                            Aspect="Fill" 
+                            HeightRequest="190" 
+                            WidthRequest="250"
+                            IsOpaque="True"/>
+                        
+                        <Label 
+                            Text="Minha Conta" 
+                            TextColor="White" 
+                            FontAttributes="Bold" 
+                            FontSize="Medium" 
+                            HorizontalOptions="Center"
+                            TranslationY="-175"/>
+                        
+                        <Label 
+                            Text="Acesse sua conta e confira as opções!" 
+                            TextColor="White" 
+                            FontSize="15" 
+                            HorizontalTextAlignment="Center"
+                            HorizontalOptions="Center"
+                            TranslationY="-160"
+                            WidthRequest="155"/>
+                        
+                        <Button 
+                            Text="Acessar" 
+                            BackgroundColor="#513635" 
+                            TextColor="White" 
+                            WidthRequest="100" 
+                            Clicked="GotoAccount"
+                            TranslationY="-120"/>
+                    </StackLayout>
+
+                </Frame>
+
+                <!-- =========================  Pets  ========================= -->
+                <Frame
+                BackgroundColor="#826160"
+                Padding="10"
+                WidthRequest="250"
+                HeightRequest="250"
+                CornerRadius="10"
+                Margin="10"
+                HasShadow="True">
+
+                    <StackLayout 
+                        Spacing="10">
+                        
+                        <Image 
+                            Source="gotopets.jpg" 
+                            Aspect="Fill" 
+                            HeightRequest="190" 
+                            WidthRequest="250"
+                            IsOpaque="True"/>
+                        
+                        <Label 
+                            Text="Meus Pets" 
+                            TextColor="White" 
+                            FontAttributes="Bold" 
+                            FontSize="Medium" 
+                            HorizontalOptions="Center"
+                            TranslationY="-175"/>
+                        
+                        <Label 
+                            Text="Adicione e verifique seus Pets!" 
+                            TextColor="White" 
+                            FontSize="15" 
+                            HorizontalOptions="Center"
+                            HorizontalTextAlignment="Center"
+                            TranslationY="-160"
+                            WidthRequest="155"/>
+                        
+                        <Button 
+                            Text="Acessar" 
+                            BackgroundColor="#513635"
+                            TextColor="White" 
+                            WidthRequest="100" 
+                            Clicked="GotoPets"
+                            TranslationY="-120"/>
+                        
+                    </StackLayout>
+
+                </Frame>
+
+                <!-- =========================  Consultas  ========================= -->
+                <Frame
+                BackgroundColor="#826160"
+                Padding="10"
+                WidthRequest="250"
+                HeightRequest="250"
+                CornerRadius="10"
+                Margin="10"
+                HasShadow="True">
+
+                    <StackLayout 
+                        Spacing="10">
+                        
+                        <Image 
+                            Source="gotoconsults.jpg" 
+                            Aspect="Fill" 
+                            HeightRequest="190"
+                            WidthRequest="250"
+                            IsOpaque="True"/>
+                        
+                        <Label 
+                            Text="Minhas Consultas" 
+                            TextColor="White"
+                            FontAttributes="Bold" 
+                            FontSize="Medium"
+                            HorizontalOptions="Center"
+                            TranslationY="-175"/>
+                        
+                        <Label 
+                            Text="Agende e acompanhe suas consultas!"
+                            TextColor="White" 
+                            FontSize="15"
+                            HorizontalOptions="Center"
+                            HorizontalTextAlignment="Center"
+                            TranslationY="-160"
+                            WidthRequest="155"/>
+                        
+                        <Button 
+                            Text="Acessar" 
+                            BackgroundColor="#513635" 
+                            TextColor="White" 
+                            WidthRequest="100" 
+                            Clicked="GotoConsult"
+                            TranslationY="-120"/>
+                        
+                    </StackLayout>
+
+                </Frame>
+
+            </FlexLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

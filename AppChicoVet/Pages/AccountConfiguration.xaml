@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppChicoVet.Pages.AccountConfiguration"
+             Title="AccountConfiguration">
+
+    <ScrollView>
+        <VerticalStackLayout
+          Padding="20"
+          Spacing="10">
+
+            <Label
+              x:Name="lblVoltar"
+              HorizontalTextAlignment="Center"
+              Text="↩"
+              FontAttributes="Bold"
+              Margin="0, -40, 0, 0"
+              TranslationX="-225"
+              TranslationY="30"
+              FontSize="20"
+              TextColor="#513635">
+
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="ChangingPageAccount"/>
+                </Label.GestureRecognizers>
+
+            </Label>
+
+            <Image 
+              Aspect="AspectFit" 
+              Source="appicon.png"
+              HeightRequest="125"
+              WidthRequest="125"/>
+
+            <Label
+              x:Name="lblTitle"
+              HorizontalTextAlignment="Center"
+              Text="Configurar Conta"
+              Margin="0,-25,0,15"
+              FontSize="35"
+              TextColor="#513635"/>
+
+            <Label 
+            x:Name="lblNome"
+            Text="Nome Completo"
+            WidthRequest="350"/>
+
+            <Entry
+            x:Name="etrNome"
+            Placeholder="(Nome usuário)"
+            WidthRequest="350"/>
+
+            <Label 
+            x:Name="lblCPF"
+            Text="CPF"
+            WidthRequest="350"/>
+
+            <Entry
+            x:Name="etrCPF"
+           Placeholder="(CPF usuário)"
+            WidthRequest="350"/>
+
+            <Label 
+            x:Name="lblEmail"
+            Text="Email"
+            WidthRequest="350"/>
+
+            <Entry
+            x:Name="etrEmail"
+            Placeholder="(Email usuário)"
+            WidthRequest="350"/>
+
+            <Label 
+            x:Name="lblSenha"
+            Text="Senha"
+            WidthRequest="350"/>
+
+            <Entry
+            x:Name="etrSenha"
+            IsPassword="True"
+            Placeholder="(***** *******)"
+            WidthRequest="350"/>
+
+            <Label 
+            x:Name="lblNasc"
+            Text="Data de Nascimento"
+            WidthRequest="350"/>
+
+            <DatePicker
+            x:Name="dpNasc"
+            WidthRequest="350">
+            </DatePicker>
+
+
+            <Label 
+            x:Name="lblGenero"
+            Text="Gênero"
+            WidthRequest="350"/>
+
+            <Grid
+           RowDefinitions="Auto,Auto"
+           ColumnDefinitions="Auto,*"
+           WidthRequest="350">
+
+                <RadioButton
+                 Grid.Row="1"
+                 Grid.ColumnSpan="1"
+                 x:Name="rbFeminino"
+                 Scale=".75"
+                 TranslationX="-5"/>
+
+                <Label 
+            Grid.Row="1"
+            Grid.ColumnSpan="1"
+            x:Name="lblGeneroFeminino"
+            Text="Feminino"
+            WidthRequest="250"
+            TranslationX="25"
+            TranslationY="8"/>
+
+                <RadioButton
+                Grid.Row="1"
+                Grid.Column="2"
+                x:Name="rbMasculino"
+                Scale=".75"
+                TranslationX="-140"/>
+
+                <Label 
+            Grid.Row="1"
+            Grid.Column="2"
+            x:Name="lblGeneroMasculino"
+            Text="Masculino"
+            WidthRequest="250"
+            TranslationX="-110"
+            TranslationY="8"/>
+
+                <RadioButton
+                Grid.Row="1"
+                Grid.ColumnSpan="3"
+                x:Name="rbIndiferente"
+                Scale=".75"
+                TranslationX="235"/>
+
+                <Label 
+                Grid.Row="1"
+                Grid.Column="3"
+                x:Name="lblGeneroIndiferente"
+                Text="Não binário"
+                WidthRequest="250"
+                TranslationX="15"
+                TranslationY="8"/>
+
+            </Grid>
+
+            <Label 
+            x:Name="lblDisponibilidade"
+            Text="Disponibilidade"
+            WidthRequest="350"/>
+
+            <Slider
+              WidthRequest="350"
+              ThumbColor="#513635"
+              MinimumTrackColor="#513635">
+            </Slider>
+
+            <Grid
+            RowDefinitions="Auto,Auto"
+            ColumnDefinitions="Auto,*"
+            WidthRequest="350">
+
+                <Label
+                Grid.Row="1"
+                Grid.ColumnSpan="1"
+                x:Name="lblManha"
+                Margin="0, -15, 0, 0"
+                Text="Manhã"
+                WidthRequest="250"></Label>
+
+                <Label
+                Grid.Row="1"
+                Grid.ColumnSpan="2"
+                x:Name="lblTarde"
+                TranslationX="110"
+                Margin="0, -15, 0, 0"
+                Text="Tarde"
+                WidthRequest="250"></Label>
+
+                <Label
+                Grid.Row="1"
+                Grid.ColumnSpan="3"
+                x:Name="lblNoite"
+                Margin="0, -15, 0, 0"
+                Text="Noite"
+                TranslationX="270"
+                WidthRequest="250"></Label>
+
+            </Grid>
+
+            <Button
+              x:Name="btnConcluir"
+              Text="Confirmar"
+              WidthRequest="250"
+              TranslationY="50"
+              Margin="0,0,0,50"
+              BackgroundColor="#513635"
+              Clicked="ChangingPageAccount"/>
+
+            <Grid
+               RowDefinitions="Auto,Auto"
+               ColumnDefinitions="Auto,*"
+               WidthRequest="350"
+               Margin="0, 55, 0, 0">
+
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Text="ATENÇÃO: Ação irreversível"
+                    TextColor="Gray"
+                    TranslationX="45"/>
+
+                <CheckBox
+                  Grid.Row="1"
+                  Grid.Column="0"
+                  Scale=".75"
+                  Color="DarkRed"
+                  TranslationX="115"/>
+
+                <Label
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Text="Excluir conta"
+                    TextColor="DarkRed"
+                    TranslationY="11"
+                    TranslationX="105"/>
+
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

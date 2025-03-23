@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppChicoVet.Pages.NewConsult"
+             Title="NewConsult">
+
+    <ScrollView>
+        <VerticalStackLayout
+          Padding="20"
+          Spacing="10">
+
+            <Label
+              x:Name="lblVoltar"
+              HorizontalTextAlignment="Center"
+              Text="↩"
+              FontAttributes="Bold"
+              Margin="0, -40, 0, 0"
+              TranslationX="-225"
+              TranslationY="30"
+              FontSize="20"
+              TextColor="#513635">
+
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="ChangingPageConsults"/>
+                </Label.GestureRecognizers>
+
+            </Label>
+
+            <Image 
+              Aspect="AspectFit" 
+              Source="appicon.png"
+              HeightRequest="125"
+              WidthRequest="125"/>
+
+            <Label
+              x:Name="lblTitle"
+              HorizontalTextAlignment="Center"
+              Text="Agendamento de consulta"
+              Margin="0,-25,0,15"
+              FontSize="35"
+              TextColor="#513635"/>
+
+            <Label 
+            x:Name="lblPet"
+            Text="Informe para qual Pet será marcado"
+            WidthRequest="350"
+            Margin="0, 35, 0, 0"/>
+
+            <Picker
+              x:Name="pkPet"
+              WidthRequest="350">
+
+                <Picker.ItemsSource>
+
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Pet 1</x:String>
+                        <x:String>Pet 2</x:String>
+                        <x:String>Pet 3</x:String>
+                        <x:String>Pet 4</x:String>
+                        <x:String>Pet 5</x:String>
+                    </x:Array>
+
+                </Picker.ItemsSource>
+
+            </Picker>
+
+            <Label 
+            x:Name="lblData"
+            Text="Data"
+            WidthRequest="350"/>
+
+            <DatePicker
+            x:Name="dpData"
+            WidthRequest="350">
+            </DatePicker>
+
+            <Label 
+               x:Name="lblTipo"
+               Text="Tipo de agendamento"
+               WidthRequest="350"/>
+
+            <Grid
+               RowDefinitions="Auto,Auto"
+               ColumnDefinitions="Auto,*"
+               WidthRequest="350">
+
+                <RadioButton
+                  Grid.Row="1"
+                  Grid.ColumnSpan="1"
+                  x:Name="cbBath"
+                  Scale=".75"
+                  WidthRequest="350"
+                  TranslationX="-40">
+                </RadioButton>
+
+                <Label 
+                 Grid.Row="1"
+                 Grid.ColumnSpan="1"
+                 x:Name="lblBath"
+                 Text="Banho e tosa"
+                 WidthRequest="250"
+                 TranslationX="-20"
+                 TranslationY="10.5"/>
+
+                <RadioButton
+                  Grid.Row="1"
+                  Grid.ColumnSpan="2"
+                  x:Name="cbTraining"
+                  Scale=".75"
+                  WidthRequest="350"
+                  TranslationX="93">
+                </RadioButton>
+
+                <Label 
+                 Grid.Row="1"
+                 Grid.ColumnSpan="2"
+                 x:Name="lblTraining"
+                 Text="Treinamento"
+                 WidthRequest="250"
+                 TranslationX="110"
+                 TranslationY="10.5"/>
+
+                <RadioButton
+                  Grid.Row="1"
+                  Grid.ColumnSpan="2"
+                  x:Name="cbVaccine"
+                  Scale=".75"
+                  WidthRequest="350"
+                  TranslationX="223">
+                </RadioButton>
+
+                <Label 
+                 Grid.Row="1"
+                 Grid.ColumnSpan="1"
+                 x:Name="lblVaccine"
+                 Text="Vacina"
+                 WidthRequest="250"
+                 TranslationX="245"
+                 TranslationY="10.5"/>
+
+                <!-- ============== Linha 2 ============== -->
+
+                <RadioButton
+                  Grid.RowSpan="2"
+                  Grid.ColumnSpan="1"
+                  x:Name="cbExam"
+                  Scale=".75"
+                  WidthRequest="350"
+                  TranslationX="-40"
+                  TranslationY="40">
+                </RadioButton>
+
+                <Label 
+                 Grid.Row="2"
+                 Grid.ColumnSpan="1"
+                 x:Name="lblExam"
+                 Text="Exame"
+                 WidthRequest="250"
+                 TranslationX="-20"
+                 TranslationY="51"/>
+
+                <RadioButton
+                  Grid.Row="2"
+                  Grid.ColumnSpan="2"
+                  x:Name="cbFun"
+                  Scale=".75"
+                  WidthRequest="350"
+                  TranslationX="93"
+                  TranslationY="40">
+                </RadioButton>
+
+                <Label 
+                 Grid.Row="2"
+                 Grid.ColumnSpan="1"
+                 x:Name="lblFun"
+                 Text="Recreamento"
+                 WidthRequest="250"
+                 TranslationX="110"
+                 TranslationY="51"/>
+
+                <RadioButton
+                  Grid.Row="1"
+                  Grid.ColumnSpan="3"
+                  x:Name="cbAdInten"
+                  Scale=".75"
+                  WidthRequest="350"
+                  TranslationX="223"
+                  TranslationY="40">
+                </RadioButton>
+
+                <Label 
+                 Grid.Row="2"
+                 Grid.ColumnSpan="1"
+                 x:Name="lblAdInten"
+                 Text="Adestramento"
+                 WidthRequest="250"
+                 TranslationX="245"
+                 TranslationY="51"/>
+
+            </Grid>
+
+            <Label 
+            Margin="0, 45, 0, 0"
+            x:Name="lblSobre"
+            Text="Observações (opcional)"
+            WidthRequest="350"/>
+
+            <Editor
+              WidthRequest="350"
+              AutoSize="TextChanges"
+              x:Name="edSobre">
+            </Editor>
+
+            <Button
+              x:Name="btnConcluir"
+              Text="Agendar"
+              WidthRequest="250"
+              TranslationY="50"
+              Margin="0,0,0,50"
+              BackgroundColor="#513635"
+              Clicked="ChangingPageConsults"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppChicoVet.Pages.Info"
+             Title="Info">
+
+    <ScrollView>
+        <VerticalStackLayout
+           Padding="30,0"
+           Spacing="25">
+
+            <Image
+               x:Name="MainIcon"
+               Source="appicon.png"
+               WidthRequest="150"
+               HeightRequest="150"
+               HorizontalOptions="Center"
+               Margin="0, 10, 0, 0"/>
+
+            <Label
+               x:Name="MainTitle"
+               FontSize="30"
+               Text="Um poquinho sobre nós"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold"
+               TranslationY="-20"
+               TextColor="#513635"
+               Margin="0, -30, 0, 0"/>
+
+            <Label
+                x:Name="FirstTitle"
+                FontSize="25"
+                Text="Onde tudo começou..."
+                TextColor="#513635"
+                WidthRequest="550"
+                TranslationX="-50"/>
+
+            <Label
+                x:Name="FirstParagraph"
+                FontSize="15"
+                Margin="0, -25, 0, 0"
+                Text="A Chico Veterinários surgiu como uma resposta para a falta de serviços de altíssima qualidade, juntando os melhores profissionais e maiores amantes de animais para começar a iniciativa que se tornaria um dia a maior referência de cuidado com os animais e confiança para os donos!"
+                WidthRequest="550"
+                TranslationX="-50"/>
+
+            <Label
+                x:Name="SecTitle"
+                FontSize="25"
+                Text="Criador"
+                Margin="0, 10, 0, 0"
+                TextColor="#513635"
+                WidthRequest="550"/>
+
+            <Label
+                x:Name="SecParagraph"
+                FontSize="15"
+                Margin="0, -25, 0, 0"
+                Text="O criador (e programador) original da iniciativa foi Luis Eduardo Boaretto Rigoni - RA 2404089! Feito exclusivamente para um projeto de Desenvolvimento Mobile"
+                WidthRequest="550"/>
+
+            <Label
+                x:Name="LastTitle"
+                FontSize="25"
+                Text="Uma última curiosidade!"
+                TextColor="#513635"
+                WidthRequest="550"
+                TranslationX="50"/>
+
+            <Label
+                x:Name="LastParagraph"
+                FontSize="15"
+                Margin="0, -25, 0, 0"
+                Text="Nossa logo e marca leva o nome de um dos animaizinhos mais queridos do criador: Chico! O pequeno cachorrinho valente"
+                WidthRequest="550"
+                TranslationX="50"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

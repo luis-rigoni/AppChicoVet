@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppChicoVet.Pages.LoginAccount"
+             Title="LoginAccount">
+
+    <ScrollView>
+        <VerticalStackLayout
+           Padding="20"
+           Spacing="10">
+
+            <Image 
+           Aspect="AspectFit" 
+           Source="appicon.png"
+           HeightRequest="125"
+           WidthRequest="125"/>
+
+            <Label
+           x:Name="lblTitle"
+           HorizontalTextAlignment="Center"
+           Text="Login"
+           Margin="0,-25,0,35"
+           FontSize="35"
+           TextColor="#513635"/>
+
+            <Label 
+           x:Name="lblEmail"
+           TranslationX="-55"
+           Text="Email ou nome"
+           WidthRequest="250"/>
+
+            <Grid
+               RowDefinitions="Auto,Auto"
+               ColumnDefinitions="Auto,*">
+
+                <Entry
+               Grid.Row="1"
+               Grid.ColumnSpan="2"
+               x:Name="etrEmail"
+               TranslationX="-55"
+               Placeholder=""
+               WidthRequest="250"/>
+
+                <Button
+               Grid.Row="1"
+               Grid.ColumnSpan="2"
+               x:Name="btlLimparEmail"
+               TranslationX="135"
+               Text="Limpar"
+               WidthRequest="100"
+               BackgroundColor="#8E6864"/>
+            </Grid>
+
+
+            <Label
+           x:Name="lblSenha"
+           TranslationX="-55"
+           Text="Senha"
+           WidthRequest="250"/>
+
+            <Grid
+               RowDefinitions="Auto,Auto"
+               ColumnDefinitions="Auto,*"
+               Margin="0,0,0,50">
+
+                <Entry
+               Grid.Row="1"
+               Grid.ColumnSpan="2"
+               x:Name="etrSenha"
+               TranslationX="-55"
+               Placeholder=""
+               WidthRequest="250"/>
+
+                <Button
+               Grid.Row="1"
+               Grid.ColumnSpan="2"
+               x:Name="btlLimparSenha"
+               TranslationX="135"
+               Text="Limpar"
+               WidthRequest="100"
+               BackgroundColor="#8E6864"/>
+
+            </Grid>
+
+            <Button
+               x:Name="btnAcessar"
+               Text="Acessar"
+               WidthRequest="250"
+               BackgroundColor="#513635"
+               Clicked="GotoAccount"/>
+
+
+            <Grid
+               RowDefinitions="Auto,Auto"
+               ColumnDefinitions="Auto,*">
+
+                <Label
+               Grid.Row="1"
+               Grid.ColumnSpan="2"
+               x:Name="lblSemConta"
+               TranslationX="-43"
+               Text="Não possui conta?"
+               WidthRequest="250"
+               HorizontalTextAlignment="Center"/>
+
+                <Label
+               Grid.Row="1"
+               Grid.ColumnSpan="2"
+               TextColor="#513635"
+               FontAttributes="Bold"
+               x:Name="lblSemContaLink"
+               TranslationX="57"
+               Text="Criar conta"
+               WidthRequest="250"
+               HorizontalTextAlignment="Center">
+
+                  <Label.GestureRecognizers>
+                     <TapGestureRecognizer Tapped="ChangingPageNewAccount"/>
+                  </Label.GestureRecognizers>
+                    
+              </Label>
+
+            </Grid>
+
+
+            <Grid
+               RowDefinitions="Auto,Auto"
+               ColumnDefinitions="Auto,*">
+
+              <Label
+               Grid.Row="1"
+               Grid.ColumnSpan="2"
+               x:Name="lblEsqueciSenha"
+               TranslationX="-45"
+               Text="Esqueceu a senha?"
+               WidthRequest="250"
+               HorizontalTextAlignment="Center"/>
+
+               <Label
+               Grid.Row="1"
+               Grid.ColumnSpan="2"
+               TextColor="#513635"
+               FontAttributes="Bold"
+               x:Name="lblEsqueciSenhaLink"
+               TranslationX="60"
+               Text="Clique aqui"
+               WidthRequest="250"
+               HorizontalTextAlignment="Center"/>
+
+            </Grid>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
