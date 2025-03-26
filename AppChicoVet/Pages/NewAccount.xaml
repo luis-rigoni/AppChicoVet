@@ -107,16 +107,16 @@
                   Grid.ColumnSpan="1"
                   x:Name="rbFeminino"
                   Scale=".75"
-                  TranslationX="-5"/>
+                  TranslationX="-35"/>
 
                 <Label 
-             Grid.Row="1"
-             Grid.ColumnSpan="1"
-             x:Name="lblGeneroFeminino"
-             Text="Feminino"
-             WidthRequest="250"
-             TranslationX="25"
-             TranslationY="8"/>
+                 Grid.Row="1"
+                 Grid.ColumnSpan="1"
+                 x:Name="lblGeneroFeminino"
+                 Text="Feminino"
+                 WidthRequest="250"
+                 TranslationX="20"
+                 TranslationY="11"/>
 
                 <RadioButton
                  Grid.Row="1"
@@ -126,20 +126,20 @@
                  TranslationX="-140"/>
 
                 <Label 
-             Grid.Row="1"
-             Grid.Column="2"
-             x:Name="lblGeneroMasculino"
-             Text="Masculino"
-             WidthRequest="250"
-             TranslationX="-110"
-             TranslationY="8"/>
+                 Grid.Row="1"
+                 Grid.Column="2"
+                 x:Name="lblGeneroMasculino"
+                 Text="Masculino"
+                 WidthRequest="250"
+                 TranslationX="-30"
+                 TranslationY="11"/>
 
                 <RadioButton
                  Grid.Row="1"
                  Grid.ColumnSpan="3"
                  x:Name="rbIndiferente"
                  Scale=".75"
-                 TranslationX="235"/>
+                 TranslationX="200"/>
 
                 <Label 
                  Grid.Row="1"
@@ -147,8 +147,8 @@
                  x:Name="lblGeneroIndiferente"
                  Text="Não binário"
                  WidthRequest="250"
-                 TranslationX="15"
-                 TranslationY="8"/>
+                 TranslationX="90"
+                 TranslationY="11"/>
 
             </Grid>
 

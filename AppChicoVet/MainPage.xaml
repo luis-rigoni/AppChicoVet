@@ -18,7 +18,7 @@
 
             <Label
                 x:Name="MainTitle"
-                FontSize="Header"
+                FontSize="30"
                 Text="Chico Veterinário"
                 HorizontalTextAlignment="Center"
                 FontAttributes="Bold"

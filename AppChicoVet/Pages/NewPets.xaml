@@ -104,7 +104,7 @@
                   Grid.ColumnSpan="1"
                   x:Name="rbFeminino"
                   Scale=".75"
-                  TranslationX="-5"/>
+                  TranslationX="-35"/>
 
                 <Label 
                  Grid.Row="1"
@@ -112,8 +112,8 @@
                  x:Name="lblGeneroFeminino"
                  Text="Feminino"
                  WidthRequest="250"
-                 TranslationX="25"
-                 TranslationY="8"/>
+                 TranslationX="20"
+                 TranslationY="11"/>
 
                 <RadioButton
                  Grid.Row="1"
@@ -128,13 +128,12 @@
                  x:Name="lblGeneroMasculino"
                  Text="Masculino"
                  WidthRequest="250"
-                 TranslationX="-110"
-                 TranslationY="8"/>
+                 TranslationX="-30"
+                 TranslationY="11"/>
 
             </Grid>
 
             <Label 
-             Margin="0, -15, 0, 0"
              x:Name="lblRaca"
              Text="Raça"
              WidthRequest="350"/>

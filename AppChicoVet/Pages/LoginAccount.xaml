@@ -19,9 +19,11 @@
            x:Name="lblTitle"
            HorizontalTextAlignment="Center"
            Text="Login"
-           Margin="0,-25,0,35"
-           FontSize="35"
-           TextColor="#513635"/>
+           FontAttributes="Bold"
+           FontSize="30"
+           TranslationY="-20"
+           TextColor="#513635"
+           Margin="0, -25, 0, 0"/>
 
             <Label 
            x:Name="lblEmail"
