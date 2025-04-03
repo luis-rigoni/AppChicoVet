@@ -19,7 +19,7 @@
 
              <Label
                 x:Name="MainTitle"
-                FontSize="Header"
+                FontSize="30"
                 Text="Meus Pets"
                 HorizontalTextAlignment="Center"
                 FontAttributes="Bold"

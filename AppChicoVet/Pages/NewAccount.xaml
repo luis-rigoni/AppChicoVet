@@ -91,7 +91,6 @@
              WidthRequest="350">
             </DatePicker>
 
-
             <Label 
              x:Name="lblGenero"
              Text="Gênero"
