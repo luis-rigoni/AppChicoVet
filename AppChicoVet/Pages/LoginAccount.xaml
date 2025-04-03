@@ -69,6 +69,7 @@
                Grid.Row="1"
                Grid.ColumnSpan="2"
                x:Name="etrSenha"
+               IsPassword="True"
                TranslationX="-55"
                Placeholder=""
                WidthRequest="250"/>
