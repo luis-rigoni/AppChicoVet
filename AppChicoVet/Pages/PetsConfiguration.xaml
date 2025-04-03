@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppChicoVet.Pages.PetsConfiguration"
+             Title="PetsConfiguration">
+
+    <ScrollView>
+        <VerticalStackLayout
+         Padding="20"
+         Spacing="10">
+
+            <Label
+             x:Name="lblVoltar"
+             HorizontalTextAlignment="Center"
+             Text="↩"
+             FontAttributes="Bold"
+             Margin="0, -40, 0, 0"
+             TranslationX="-225"
+             TranslationY="30"
+             FontSize="20"
+             TextColor="#513635">
+
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="BackToPets"/>
+                </Label.GestureRecognizers>
+
+            </Label>
+
+            <Image 
+             Aspect="AspectFit" 
+             Source="appicon.png"
+             HeightRequest="125"
+             WidthRequest="125"/>
+
+            <Label
+               x:Name="lblTitle"
+               HorizontalTextAlignment="Center"
+               Text="Detalhes do Pet"
+               Margin="0,-25,0,15"
+               FontSize="35"
+               TextColor="#513635"/>
+
+            <Label 
+             x:Name="lblFoto"
+             Text="Foto do Pet"
+             WidthRequest="350"/>
+
+            <Entry
+             x:Name="etrFoto"
+             Placeholder="(Imagem do animal)"
+             WidthRequest="350"/>
+
+            <Label 
+             x:Name="lblNome"
+             Text="Nome do Pet"
+             WidthRequest="350"/>
+
+            <Entry
+             x:Name="etrNome"
+             Placeholder="(Nome do animal)"
+             WidthRequest="350"/>
+
+            <Label 
+             x:Name="lblApelido"
+             Text="Apelido do Pet"
+             WidthRequest="350"/>
+
+            <Entry
+             x:Name="etrApelido"
+             Placeholder="(Apelido animal)"
+             WidthRequest="350"/>
+
+            <Label 
+             x:Name="lblNasc"
+             Text="Data de Nascimento"
+             WidthRequest="350"/>
+
+            <DatePicker
+             x:Name="dpNasc"
+             WidthRequest="350">
+            </DatePicker>
+
+
+            <Label 
+             x:Name="lblGenero"
+             Text="Gênero"
+             WidthRequest="350"/>
+
+            <Grid
+            RowDefinitions="Auto,Auto"
+            ColumnDefinitions="Auto,*"
+            WidthRequest="350">
+
+                <RadioButton
+                  Grid.Row="1"
+                  Grid.ColumnSpan="1"
+                  x:Name="rbFeminino"
+                  Scale=".75"
+                  TranslationX="-35"/>
+
+                <Label 
+                 Grid.Row="1"
+                 Grid.ColumnSpan="1"
+                 x:Name="lblGeneroFeminino"
+                 Text="Feminino"
+                 WidthRequest="250"
+                 TranslationX="20"
+                 TranslationY="11"/>
+
+                <RadioButton
+                 Grid.Row="1"
+                 Grid.Column="2"
+                 x:Name="rbMasculino"
+                 Scale=".75"
+                 TranslationX="-140"/>
+
+                <Label 
+                 Grid.Row="1"
+                 Grid.Column="2"
+                 x:Name="lblGeneroMasculino"
+                 Text="Masculino"
+                 WidthRequest="250"
+                 TranslationX="-30"
+                 TranslationY="11"/>
+
+            </Grid>
+
+            <Label 
+             x:Name="lblEspecie"
+             Text="Espécie"
+             WidthRequest="350"/>
+
+            <Picker
+               x:Name="pkEspecie"
+               WidthRequest="350">
+
+                <Picker.ItemsSource>
+
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Cachorro</x:String>
+                        <x:String>Gato</x:String>
+                        <x:String>Papagaio</x:String>
+                        <x:String>Hamster</x:String>
+                        <x:String>Tartaruga</x:String>
+                        <x:String>Largarto</x:String>
+                    </x:Array>
+
+                </Picker.ItemsSource>
+
+            </Picker>
+
+            <Button
+             x:Name="btnConcluir"
+             Text="Confirmar"
+             WidthRequest="250"
+             TranslationY="50"
+             Margin="0,0,0,50"
+             BackgroundColor="#513635"
+             Clicked="BackToPets"/>
+
+            <Grid
+              RowDefinitions="Auto,Auto"
+              ColumnDefinitions="Auto,*"
+              WidthRequest="350"
+              Margin="0, 55, 0, 0">
+
+                <Label
+                   Grid.Row="0"
+                   Grid.Column="1"
+                   Text="ATENÇÃO: Ação irreversível"
+                   TextColor="Gray"
+                   TranslationX="45"/>
+
+                <CheckBox
+                 Grid.Row="1"
+                 Grid.Column="0"
+                 Scale=".75"
+                 Color="DarkRed"
+                 TranslationX="115"/>
+
+                <Label
+                   Grid.Row="1"
+                   Grid.Column="1"
+                   Text="Excluir pet"
+                   TextColor="DarkRed"
+                   TranslationY="11"
+                   TranslationX="105"/>
+
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

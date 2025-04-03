@@ -10,5 +10,9 @@ public partial class PetsConsult : ContentPage
     {
         await Navigation.PushAsync(new NewConsult());
     }
+    private async void ChangingPageViewConsult(Object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new ViewConsult());
+    }
 
 }

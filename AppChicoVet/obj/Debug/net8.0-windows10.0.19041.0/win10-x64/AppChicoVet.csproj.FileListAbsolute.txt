@@ -200,3 +200,4 @@ C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0
 C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\turtle.scale-100.png
 C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\playing.scale-100.jpg
 C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sport.scale-100.jpeg
+C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\AppChicoVet.sourcelink.json

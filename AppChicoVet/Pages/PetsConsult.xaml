@@ -94,7 +94,8 @@
                            TextColor="White" 
                            WidthRequest="100" 
                            TranslationY="-180"
-                           TranslationX="110"/>
+                           TranslationX="110"
+                           Clicked="ChangingPageViewConsult"/>
                     </StackLayout>
 
                 </Frame>
@@ -146,7 +147,8 @@
                            TextColor="White" 
                            WidthRequest="100" 
                            TranslationY="-180"
-                           TranslationX="110"/>
+                           TranslationX="110"
+                           Clicked="ChangingPageViewConsult"/>
                     </StackLayout>
 
                 </Frame>
@@ -198,7 +200,8 @@
                            TextColor="White" 
                            WidthRequest="100" 
                            TranslationY="-180"
-                           TranslationX="110"/>
+                           TranslationX="110"
+                           Clicked="ChangingPageViewConsult"/>
                     </StackLayout>
 
                 </Frame>
@@ -250,7 +253,8 @@
                            TextColor="White" 
                            WidthRequest="100" 
                            TranslationY="-180"
-                           TranslationX="110"/>
+                           TranslationX="110"
+                           Clicked="ChangingPageViewConsult"/>
                     </StackLayout>
 
                 </Frame>
@@ -303,7 +307,8 @@
                            TextColor="White" 
                            WidthRequest="100" 
                            TranslationY="-180"
-                           TranslationX="110"/>
+                           TranslationX="110"
+                           Clicked="ChangingPageViewConsult"/>
                     </StackLayout>
 
                 </Frame>

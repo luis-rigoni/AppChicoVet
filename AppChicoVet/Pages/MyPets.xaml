@@ -96,7 +96,8 @@
                             TextColor="White" 
                             WidthRequest="100" 
                             TranslationY="-140"
-                            TranslationX="80"/>
+                            TranslationX="80"
+                            Clicked="ChangingPagePetConfiguration"/>
                     </StackLayout>
 
                 </Frame>
@@ -148,7 +149,8 @@
                             TextColor="White" 
                             WidthRequest="100" 
                             TranslationY="-140"
-                            TranslationX="80"/>
+                            TranslationX="80"
+                            Clicked="ChangingPagePetConfiguration"/>
                     </StackLayout>
 
                 </Frame>
@@ -200,7 +202,8 @@
                             TextColor="White" 
                             WidthRequest="100" 
                             TranslationY="-140"
-                            TranslationX="80"/>
+                            TranslationX="80"
+                            Clicked="ChangingPagePetConfiguration"/>
                     </StackLayout>
 
                 </Frame>
@@ -252,7 +255,8 @@
                             TextColor="White" 
                             WidthRequest="100" 
                             TranslationY="-140"
-                            TranslationX="80"/>
+                            TranslationX="80"
+                            Clicked="ChangingPagePetConfiguration"/>
                     </StackLayout>
 
                 </Frame>
@@ -304,7 +308,8 @@
                             TextColor="White" 
                             WidthRequest="100" 
                             TranslationY="-140"
-                            TranslationX="80"/>
+                            TranslationX="80"
+                            Clicked="ChangingPagePetConfiguration"/>
                     </StackLayout>
 
                 </Frame>

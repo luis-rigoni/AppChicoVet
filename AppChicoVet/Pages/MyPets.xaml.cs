@@ -11,4 +11,14 @@ public partial class MyPets : ContentPage
         await Navigation.PushAsync(new NewPets());
     }
 
+    private async void ChangingPagePetConfiguration(Object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new PetsConfiguration());
+    }
+
+    private async void BackToPets(Object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new MyPets());
+    }
+
 }

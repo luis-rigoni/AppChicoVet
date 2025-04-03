@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppChicoVet.Pages.ViewConsult"
+             Title="ViewConsult">
+
+    <ScrollView>
+        <VerticalStackLayout
+         Padding="20"
+         Spacing="10">
+
+            <Label
+             x:Name="lblVoltar"
+             HorizontalTextAlignment="Center"
+             Text="↩"
+             FontAttributes="Bold"
+             Margin="0, -40, 0, 0"
+             TranslationX="-225"
+             TranslationY="30"
+             FontSize="20"
+             TextColor="#513635">
+
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="BackToConsults"/>
+                </Label.GestureRecognizers>
+
+            </Label>
+
+            <Image 
+             Aspect="AspectFit" 
+             Source="appicon.png"
+             HeightRequest="125"
+             WidthRequest="125"/>
+
+            <Label
+               x:Name="lblTitle"
+               HorizontalTextAlignment="Center"
+               Text="Detalhes da Consulta"
+               Margin="0,-25,0,15"
+               FontSize="35"
+               TextColor="#513635"/>
+
+            <Label 
+             x:Name="lblNomeTitle"
+             Text="Nome do Pet"
+             TextColor="#513635"
+             FontAttributes="Bold"
+             WidthRequest="350"/>
+
+            <Label 
+             x:Name="lblNome"
+             Text="(Nome do animal)"
+             Margin="0, -15, 0, 0"
+             WidthRequest="350"/>
+
+            <Label 
+             x:Name="lblCategoriaTitle"
+             Text="Categoria"
+             TextColor="#513635"
+             FontAttributes="Bold"
+             WidthRequest="350"/>
+
+            <Label 
+             x:Name="lblCategoria"
+             Text="(Categoria de consulta)"
+             Margin="0, -15, 0, 0"
+             WidthRequest="350"/>
+
+            <Label 
+             x:Name="lblTempoTitle"
+             Text="Tempo estimado de finalização"
+             TextColor="#513635"
+             FontAttributes="Bold"
+             WidthRequest="350"/>
+
+            <Label 
+             x:Name="lblTempo"
+             Text="0h 20m"
+             Margin="0, -15, 0, 0"
+             WidthRequest="350"/>
+
+            <Label 
+             x:Name="lblStatusTitle"
+             Text="Status"
+             TextColor="#513635"
+             FontAttributes="Bold"
+             WidthRequest="350"/>
+
+            <Label 
+             x:Name="lblStatus"
+             Text="Em andamento!"
+             Margin="0, -15, 0, 0"
+             WidthRequest="350"/>
+
+            <Label 
+             x:Name="lblEquipeTitle"
+             Text="Equipe responsável"
+             TextColor="#513635"
+             FontAttributes="Bold"
+             WidthRequest="350"/>
+
+            <Label 
+             x:Name="lblEquipe"
+             Text="Funcionário 1, Funcionário 2, Funcionário 3"
+             Margin="0, -15, 0, 0"
+             WidthRequest="350"/>
+
+            <Label 
+             x:Name="lblMapaTitle"
+             Text="Ver no mapa em tempo real"
+             HorizontalTextAlignment="Center"
+             Margin="0, 15, 0, 0"
+             TextColor="#513635"
+             FontAttributes="Bold"
+             WidthRequest="350"/>
+
+            <Entry 
+            x:Name="lblMapa"
+            Text="(Google maps)"
+            HorizontalTextAlignment="Center"
+            IsReadOnly="True"
+            Margin="0, -5, 0, 0"
+            WidthRequest="200"
+            HeightRequest="200"
+            BackgroundColor="Beige"/>
+
+            <Button
+             x:Name="btnConcluir"
+             Text="Voltar"
+             WidthRequest="250"
+             TranslationY="50"
+             Margin="0,-35,0,50"
+             BackgroundColor="#513635"
+             Clicked="BackToConsults"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

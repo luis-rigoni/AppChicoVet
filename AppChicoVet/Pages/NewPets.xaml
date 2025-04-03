@@ -134,12 +134,12 @@
             </Grid>
 
             <Label 
-             x:Name="lblRaca"
-             Text="Raça"
+             x:Name="lblEspecie"
+             Text="Espécie"
              WidthRequest="350"/>
 
             <Picker
-               x:Name="pkRaca"
+               x:Name="pkEspecie"
                WidthRequest="350">
 
                 <Picker.ItemsSource>

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AppChicoVet",
+    "\\AppChicoVet\\Pages"
   ],
-  "SelectedNode": "\\AppChicoVet.sln",
+  "SelectedNode": "\\AppChicoVet\\AppChicoVet.csproj",
   "PreviewInSolutionExplorer": false
 }
