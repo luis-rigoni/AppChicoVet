@@ -55,10 +55,10 @@
 
 
             <Label
-           x:Name="lblSenha"
-           TranslationX="-55"
-           Text="Senha"
-           WidthRequest="250"/>
+               x:Name="lblSenha"
+               TranslationX="-55"
+               Text="Senha"
+               WidthRequest="250"/>
 
             <Grid
                RowDefinitions="Auto,Auto"
