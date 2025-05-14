@@ -17,15 +17,37 @@
                 HorizontalOptions="Center"
                 Margin="0, 40, 0, 10"/>
 
-            <Label
-                x:Name="MainTitle"
-                FontSize="30"
-                Text="Minha Conta"
-                HorizontalTextAlignment="Center"
-                FontAttributes="Bold"
-                TranslationY="-10"
-                TextColor="#513635"
-                Margin="0, -20, 0, 0"/>
+            <ListView
+                x:Name="viewCliente">
+
+                <ListView.ItemTemplate>
+
+                    <DataTemplate>
+
+                        <ViewCell>
+
+                            <Grid
+                               ColumnDefinitions="*" 
+                               WidthRequest="350">
+
+                                    <Label
+                                        x:Name="MainTitle"
+                                        FontSize="30"
+                                        Text="{Binding cliNome}"
+                                        HorizontalTextAlignment="Center"
+                                        FontAttributes="Bold"
+                                        TranslationY="-10"
+                                        TextColor="#513635"
+                                        Margin="0, -20, 0, 0"/>
+
+                            </Grid>
+
+                        </ViewCell>
+                    </DataTemplate>
+
+                </ListView.ItemTemplate>
+
+            </ListView>
 
             <FlexLayout 
                 Wrap="Wrap" 

@@ -27,6 +27,13 @@
                 TextColor="#513635"
                 Margin="0, -20, 0, 0"/>
 
+            <SearchBar 
+                x:Name="searchBar"
+                Placeholder="Pesquisar..."
+                WidthRequest="350"
+                Margin="0, 20, 0, 0"
+                TextChanged="searchBarChanged"/>
+
             <Label
                  FontSize="20"
                  Text="+ Adicionar pet"
@@ -48,6 +55,44 @@
                 Direction="Row" 
                 Padding="2"
                 MaximumWidthRequest="1100">
+
+                <ListView
+                    x:Name="viewAni">
+
+                    <ListView.Header>
+
+                        <Grid
+                            ColumnDefinitions="*, *"
+                            WidthRequest="350">
+
+                            <Label Grid.Column="0" Text="ID"/>
+                            <Label Grid.Column="1" Text="Nome"/>
+
+                        </Grid>
+
+                    </ListView.Header>
+
+                    <ListView.ItemTemplate>
+
+                        <DataTemplate>
+
+                            <ViewCell>
+
+                                <Grid
+                                   ColumnDefinitions="*, *" 
+                                   WidthRequest="350">
+
+                                    <Label Grid.Column="0" Text="{Binding aniId}"/>
+                                    <Label Grid.Column="1" Text="{Binding aniNome}"/>
+
+                                </Grid>
+
+                            </ViewCell>
+                        </DataTemplate>
+
+                    </ListView.ItemTemplate>
+
+                </ListView>
 
                 <!-- =========================  Cards 1  ========================= -->
                 <Frame

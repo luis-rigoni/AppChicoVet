@@ -1,3 +1,6 @@
+using AppChicoVet.Models;
+using System.Collections.ObjectModel;
+
 namespace AppChicoVet.Pages;
 
 public partial class MyAccount : ContentPage
