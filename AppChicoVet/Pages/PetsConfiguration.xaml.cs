@@ -67,5 +67,47 @@ namespace AppChicoVet.Pages
         {
             await Navigation.PopAsync(); 
         }
+
+        private async void SelecionarFotoClicked(object sender, EventArgs e)
+        {
+            try
+            {
+                var resultado = await FilePicker.PickAsync(new PickOptions
+                {
+                    FileTypes = FilePickerFileType.Images,
+                    PickerTitle = "Escolha uma imagem (.png ou .jpg)"
+                });
+
+                if (resultado != null)
+                {
+                    var extensao = Path.GetExtension(resultado.FileName).ToLower();
+
+                    if (extensao == ".jpg" || extensao == ".jpeg" || extensao == ".png")
+                    {
+                        _animalSelecionado.aniImagem = resultado.FullPath;
+                        imgPet.Source = ImageSource.FromFile(_animalSelecionado.aniImagem);
+                        imgPet.IsVisible = true;
+                        btnRemoverImagem.IsVisible = true;
+                    }
+                    else
+                    {
+                        await DisplayAlert("Formato inválido", "Por favor, selecione uma imagem PNG ou JPG.", "OK");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Erro", $"Erro ao selecionar imagem: {ex.Message}", "OK");
+            }
+        }
+
+        private void RemoverImagemClicked(object sender, EventArgs e)
+        {
+            _animalSelecionado.aniImagem = string.Empty;
+            imgPet.Source = null;
+            imgPet.IsVisible = false;
+            btnRemoverImagem.IsVisible = false;
+        }
+
     }
 }

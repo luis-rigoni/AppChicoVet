@@ -19,11 +19,11 @@
              TranslationY="30"
              FontSize="20"
              TextColor="#513635">
-                
+
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="BackToPets"/>
                 </Label.GestureRecognizers>
-                
+
             </Label>
 
             <Image 
@@ -44,18 +44,35 @@
              x:Name="lblFoto"
              Text="Foto do Pet"
              WidthRequest="350"/>
-            
-             <Image 
-             x:Name="imgPet"
-             WidthRequest="20"
-             HeightRequest="20"
-             Aspect="AspectFill"
-             Margin="0, 10"/>
 
-             <Entry
-             x:Name="etrFoto"
-             Placeholder="(Imagem do animal)"
-             WidthRequest="350"/>
+            <Button
+             x:Name="btnSelecionarFoto"
+             Text="Selecionar imagem"
+             BackgroundColor="#8E6864"
+             WidthRequest="250"
+             Clicked="SelecionarFotoClicked"/>
+
+            <AbsoluteLayout HorizontalOptions="Center">
+                <Image
+                x:Name="imgPet"
+                HeightRequest="150"
+                WidthRequest="150"
+                Aspect="AspectFit"
+                IsVisible="False"/>
+
+                <Button
+                x:Name="btnRemoverImagem"
+                Text="✕"
+                TextColor="Red"
+                BackgroundColor="Transparent"
+                WidthRequest="30"
+                HeightRequest="30"
+                FontSize="12"
+                AbsoluteLayout.LayoutBounds="1,0,25,25"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                IsVisible="False"
+                Clicked="RemoverImagemClicked"/>
+            </AbsoluteLayout>
 
             <Label 
              x:Name="lblNome"
@@ -88,19 +105,19 @@
              x:Name="lblGenero"
              Text="Gênero"
              WidthRequest="350"/>
-            
+
             <Grid
                 RowDefinitions="Auto,Auto"
                 ColumnDefinitions="Auto,*"
                 WidthRequest="350">
-                
+
                 <RadioButton
                   Grid.Row="1"
                   Grid.ColumnSpan="1"
                   x:Name="rbFeminino"
                   Scale=".75"
                   TranslationX="-35"/>
-                
+
                 <Label 
                  Grid.Row="1"
                  Grid.ColumnSpan="1"
@@ -116,7 +133,7 @@
                  x:Name="rbMasculino"
                  Scale=".75"
                  TranslationX="-140"/>
-                
+
                 <Label 
                  Grid.Row="1"
                  Grid.Column="2"
@@ -131,7 +148,7 @@
              x:Name="lblEspecie"
              Text="Espécie"
              WidthRequest="350"/>
-            
+
             <Picker
                x:Name="pkEspecie"
                WidthRequest="350">

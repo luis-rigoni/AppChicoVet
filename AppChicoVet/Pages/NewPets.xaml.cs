@@ -1,13 +1,15 @@
 using SQLite;
 using System;
 using System.IO;
-
+using Microsoft.Maui.Storage;
 using AppChicoVet.Models;
 
 namespace AppChicoVet.Pages
 {
     public partial class NewPets : ContentPage
     {
+        private string _caminhoImagemSelecionada = string.Empty;
+
         public NewPets()
         {
             InitializeComponent();
@@ -23,38 +25,45 @@ namespace AppChicoVet.Pages
             string especieSelecionada = pkEspecie.SelectedItem?.ToString() ?? "empty";
             string imagemDoPet = string.Empty;
 
-            switch (especieSelecionada)
+            if (!string.IsNullOrEmpty(_caminhoImagemSelecionada))
             {
-                case "Cachorro":
-                    imagemDoPet = "canine.png";
-                    break;
-                case "Gato":
-                    imagemDoPet = "feline.png";
-                    break;
-                case "Papagaio":
-                    imagemDoPet = "bird.png";
-                    break;
-                case "Hamster":
-                    imagemDoPet = "roedor.png";
-                    break;
-                case "Tartaruga":
-                    imagemDoPet = "turtle.png";
-                    break;
-                default:
-                    imagemDoPet = "default.png";
-                    break;
+                imagemDoPet = _caminhoImagemSelecionada;
+            }
+            else
+            {
+                switch (especieSelecionada)
+                {
+                    case "Cachorro":
+                        imagemDoPet = "canine.png";
+                        break;
+                    case "Gato":
+                        imagemDoPet = "feline.png";
+                        break;
+                    case "Papagaio":
+                        imagemDoPet = "bird.png";
+                        break;
+                    case "Hamster":
+                        imagemDoPet = "roedor.png";
+                        break;
+                    case "Tartaruga":
+                        imagemDoPet = "turtle.png";
+                        break;
+                    default:
+                        imagemDoPet = "default.png";
+                        break;
+                }
             }
 
             Animal novoPet = new Animal
             {
                 aniNome = etrNome.Text,
-                aniApelido = etrApelido.Text, 
-                aniDataNasc = dpNasc.Date, 
+                aniApelido = etrApelido.Text,
+                aniDataNasc = dpNasc.Date,
                 aniGenero = rbFeminino.IsChecked ? "Feminino" : (rbMasculino.IsChecked ? "Masculino" : "Indefinido"),
-                aniEspecie = especieSelecionada, 
-                aniObservacoes = edSobre.Text, 
+                aniEspecie = especieSelecionada,
+                aniObservacoes = edSobre.Text,
                 aniStatus = "Ativo",
-                aniImagem = imagemDoPet 
+                aniImagem = imagemDoPet
             };
 
             var path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "db_veterinario.db3");
@@ -66,5 +75,45 @@ namespace AppChicoVet.Pages
             await Navigation.PushAsync(new MyPets());
         }
 
+        private async void SelecionarFotoClicked(object sender, EventArgs e)
+        {
+            try
+            {
+                var resultado = await FilePicker.PickAsync(new PickOptions
+                {
+                    FileTypes = FilePickerFileType.Images,
+                    PickerTitle = "Escolha uma imagem (.png ou .jpg)"
+                });
+
+                if (resultado != null)
+                {
+                    var extensao = Path.GetExtension(resultado.FileName).ToLower();
+
+                    if (extensao == ".jpg" || extensao == ".jpeg" || extensao == ".png")
+                    {
+                        _caminhoImagemSelecionada = resultado.FullPath;
+                        imgPreview.Source = ImageSource.FromFile(_caminhoImagemSelecionada);
+                        imgPreview.IsVisible = true;
+                        btnRemoverImagem.IsVisible = true;
+                    }
+                    else
+                    {
+                        await DisplayAlert("Formato inválido", "Por favor, selecione uma imagem PNG ou JPG.", "OK");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Erro", $"Erro ao selecionar imagem: {ex.Message}", "OK");
+            }
+        }
+
+        private void RemoverImagemClicked(object sender, EventArgs e)
+        {
+            _caminhoImagemSelecionada = string.Empty;
+            imgPreview.Source = null;
+            imgPreview.IsVisible = false;
+            btnRemoverImagem.IsVisible = false;
+        }
     }
 }

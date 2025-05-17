@@ -41,22 +41,48 @@
                TextColor="#513635"/>
 
             <Label 
-             x:Name="lblFoto"
-             Text="Foto do Pet"
-             WidthRequest="350"/>
+            x:Name="lblFoto"
+            Text="Foto do Pet"
+            WidthRequest="350"/>
 
             <Label 
-             Margin="0, -15, 0, 0"
-             x:Name="lblFotoWarning"
-             Text="(Pode ser adicionado mais tarde ao perfil)"
-             FontSize="12"
-             TextColor="#8E6864"
-             WidthRequest="350"/>
+            Margin="0, -15, 0, 0"
+            x:Name="lblFotoWarning"
+            Text="(Pode ser adicionado mais tarde ao perfil)"
+            FontSize="12"
+            TextColor="#8E6864"
+            WidthRequest="350"/>
 
-            <Entry
-             x:Name="etrFoto"
-             Placeholder="(Anexar arquivo ou arrastar para este campo)"
-             WidthRequest="350"/>
+            <Button
+            x:Name="btnSelecionarFoto"
+            Text="Selecionar imagem"
+            BackgroundColor="#8E6864"
+            WidthRequest="250"
+            Clicked="SelecionarFotoClicked"/>
+
+            <AbsoluteLayout  
+                HorizontalOptions="Center">
+
+                <Image
+                x:Name="imgPreview"
+                HeightRequest="150"
+                WidthRequest="150"
+                Aspect="AspectFit"
+                IsVisible="False"/>
+
+                <Button
+                x:Name="btnRemoverImagem"
+                Text="✕"
+                TextColor="Red"
+                BackgroundColor="Transparent"
+                WidthRequest="30"
+                HeightRequest="30"
+                FontSize="12"
+                AbsoluteLayout.LayoutBounds="1,0,25,25"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                IsVisible="False"
+                Clicked="RemoverImagemClicked"/>
+            </AbsoluteLayout>
 
             <Label 
              x:Name="lblNome"

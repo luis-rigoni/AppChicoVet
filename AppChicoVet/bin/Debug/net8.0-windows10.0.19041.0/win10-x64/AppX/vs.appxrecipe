@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-05-17T20:45:03.894</Modified>
+      <Modified>2025-05-17T21:20:11.667</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppChicoVet.dll">
       <PackagePath>AppChicoVet.dll</PackagePath>
-      <Modified>2025-05-17T20:45:02.251</Modified>
+      <Modified>2025-05-17T21:20:07.106</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AppChicoVet.exe</PackagePath>
-      <Modified>2025-05-17T20:45:02.261</Modified>
+      <Modified>2025-05-17T21:20:07.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
