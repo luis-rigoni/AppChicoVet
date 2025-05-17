@@ -7,7 +7,7 @@ using SQLite;
 
 namespace AppChicoVet.Models
 {
-    class Especie
+    public class Especie
     {
 
         [PrimaryKey, AutoIncrement]

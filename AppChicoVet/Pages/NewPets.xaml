@@ -57,7 +57,7 @@
              x:Name="etrFoto"
              Placeholder="(Anexar arquivo ou arrastar para este campo)"
              WidthRequest="350"/>
-            
+
             <Label 
              x:Name="lblNome"
              Text="Nome do Pet"
@@ -88,7 +88,6 @@
              WidthRequest="350">
             </DatePicker>
 
-
             <Label 
              x:Name="lblGenero"
              Text="Gênero"
@@ -104,7 +103,8 @@
                   Grid.ColumnSpan="1"
                   x:Name="rbFeminino"
                   Scale=".75"
-                  TranslationX="-35"/>
+                  TranslationX="-35"
+                  Value="Feminino" />
 
                 <Label 
                  Grid.Row="1"
@@ -120,7 +120,8 @@
                  Grid.Column="2"
                  x:Name="rbMasculino"
                  Scale=".75"
-                 TranslationX="-140"/>
+                 TranslationX="-140"
+                 Value="Masculino" />
 
                 <Label 
                  Grid.Row="1"
@@ -177,13 +178,13 @@
             </Editor>
 
             <Button
-               x:Name="btnConcluir"
+               x:Name="btnSalvar"
                Text="Adicionar Pet"
                WidthRequest="250"
                TranslationY="50"
                Margin="0,0,0,50"
                BackgroundColor="#513635"
-               Clicked="ChangingPagePet"/>
+               Clicked="btnSalvarClicked"/>
 
         </VerticalStackLayout>
     </ScrollView>

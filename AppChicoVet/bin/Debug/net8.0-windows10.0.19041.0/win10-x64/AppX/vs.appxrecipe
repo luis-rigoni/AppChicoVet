@@ -30,357 +30,361 @@
     <AppXManifest Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-03T00:53:41.918</Modified>
+      <Modified>2025-05-17T20:45:03.894</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-04-03T00:53:41.537</Modified>
+      <Modified>2025-05-17T20:16:46.592</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppChicoVet.runtimeconfig.json">
       <PackagePath>AppChicoVet.runtimeconfig.json</PackagePath>
-      <Modified>2025-04-03T00:22:27.088</Modified>
+      <Modified>2025-05-17T19:48:33.822</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppChicoVet.dll">
       <PackagePath>AppChicoVet.dll</PackagePath>
-      <Modified>2025-04-03T00:53:39.045</Modified>
+      <Modified>2025-05-17T20:45:02.251</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>AppChicoVet.exe</PackagePath>
-      <Modified>2025-04-03T00:53:39.052</Modified>
+      <Modified>2025-05-17T20:45:02.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2025-04-02T23:55:49.588</Modified>
+      <Modified>2025-05-14T01:14:26.796</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-04-02T23:56:04.026</Modified>
+      <Modified>2025-05-14T01:14:40.211</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-04-02T23:56:04.026</Modified>
+      <Modified>2025-05-14T01:14:40.212</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-04-02T23:56:04.027</Modified>
+      <Modified>2025-05-14T01:14:40.213</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-04-02T23:56:04.028</Modified>
+      <Modified>2025-05-14T01:14:40.214</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-04-02T23:56:04.029</Modified>
+      <Modified>2025-05-14T01:14:40.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2025-04-02T23:56:03.914</Modified>
+      <Modified>2025-05-14T01:14:40.128</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2025-04-02T23:56:03.917</Modified>
+      <Modified>2025-05-14T01:14:40.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-100.png">
       <PackagePath>account.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.630</Modified>
+      <Modified>2025-05-17T20:12:20.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\addimage.scale-100.png">
       <PackagePath>addimage.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.659</Modified>
+      <Modified>2025-05-17T20:12:20.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.scale-100.png">
       <PackagePath>appicon.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.659</Modified>
+      <Modified>2025-05-17T20:12:20.378</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bath.scale-100.jpg">
       <PackagePath>bath.scale-100.jpg</PackagePath>
-      <Modified>2025-04-03T00:05:33.660</Modified>
+      <Modified>2025-05-17T20:12:20.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bird.scale-100.png">
       <PackagePath>bird.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.658</Modified>
+      <Modified>2025-05-17T20:12:20.368</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\brightbackground.scale-100.png">
       <PackagePath>brightbackground.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.633</Modified>
+      <Modified>2025-05-17T20:12:20.371</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\canine.scale-100.png">
       <PackagePath>canine.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.629</Modified>
+      <Modified>2025-05-17T20:12:20.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\default.scale-100.png">
+      <PackagePath>default.scale-100.png</PackagePath>
+      <Modified>2025-05-17T20:12:20.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.632</Modified>
+      <Modified>2025-05-17T20:12:20.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.632</Modified>
+      <Modified>2025-05-17T20:12:20.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.631</Modified>
+      <Modified>2025-05-17T20:12:20.369</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.631</Modified>
+      <Modified>2025-05-17T20:12:20.369</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.630</Modified>
+      <Modified>2025-05-17T20:12:20.368</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\feline.scale-100.png">
       <PackagePath>feline.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.657</Modified>
+      <Modified>2025-05-17T20:12:20.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gotoaccount.scale-100.jpg">
       <PackagePath>gotoaccount.scale-100.jpg</PackagePath>
-      <Modified>2025-04-03T00:05:33.629</Modified>
+      <Modified>2025-05-17T20:12:20.375</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gotoconsults.scale-100.jpg">
       <PackagePath>gotoconsults.scale-100.jpg</PackagePath>
-      <Modified>2025-04-03T00:05:33.628</Modified>
+      <Modified>2025-05-17T20:12:20.378</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gotopets.scale-100.jpg">
       <PackagePath>gotopets.scale-100.jpg</PackagePath>
-      <Modified>2025-04-03T00:05:33.628</Modified>
+      <Modified>2025-05-17T20:12:20.365</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
       <PackagePath>home.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.657</Modified>
+      <Modified>2025-05-17T20:12:20.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon.ico">
       <PackagePath>icon.ico</PackagePath>
-      <Modified>2025-04-03T00:05:33.655</Modified>
+      <Modified>2025-05-17T20:12:20.364</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-100.png">
       <PackagePath>iconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.635</Modified>
+      <Modified>2025-05-17T20:12:20.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-125.png">
       <PackagePath>iconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.635</Modified>
+      <Modified>2025-05-17T20:12:20.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-150.png">
       <PackagePath>iconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.634</Modified>
+      <Modified>2025-05-17T20:12:20.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-200.png">
       <PackagePath>iconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.634</Modified>
+      <Modified>2025-05-17T20:12:20.346</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLargeTile.scale-400.png">
       <PackagePath>iconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.633</Modified>
+      <Modified>2025-05-17T20:12:20.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>iconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.648</Modified>
+      <Modified>2025-05-17T20:12:20.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>iconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.647</Modified>
+      <Modified>2025-05-17T20:12:20.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>iconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.646</Modified>
+      <Modified>2025-05-17T20:12:20.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>iconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.647</Modified>
+      <Modified>2025-05-17T20:12:20.356</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>iconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.646</Modified>
+      <Modified>2025-05-17T20:12:20.356</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>iconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.650</Modified>
+      <Modified>2025-05-17T20:12:20.360</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>iconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.650</Modified>
+      <Modified>2025-05-17T20:12:20.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>iconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.648</Modified>
+      <Modified>2025-05-17T20:12:20.358</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>iconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.650</Modified>
+      <Modified>2025-05-17T20:12:20.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>iconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.649</Modified>
+      <Modified>2025-05-17T20:12:20.358</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-100.png">
       <PackagePath>iconLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.655</Modified>
+      <Modified>2025-05-17T20:12:20.364</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-125.png">
       <PackagePath>iconLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.654</Modified>
+      <Modified>2025-05-17T20:12:20.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-150.png">
       <PackagePath>iconLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.654</Modified>
+      <Modified>2025-05-17T20:12:20.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-200.png">
       <PackagePath>iconLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.653</Modified>
+      <Modified>2025-05-17T20:12:20.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.scale-400.png">
       <PackagePath>iconLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.653</Modified>
+      <Modified>2025-05-17T20:12:20.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-16.png">
       <PackagePath>iconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.652</Modified>
+      <Modified>2025-05-17T20:12:20.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-24.png">
       <PackagePath>iconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.652</Modified>
+      <Modified>2025-05-17T20:12:20.361</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-256.png">
       <PackagePath>iconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.651</Modified>
+      <Modified>2025-05-17T20:12:20.360</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-32.png">
       <PackagePath>iconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.652</Modified>
+      <Modified>2025-05-17T20:12:20.361</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconLogo.targetsize-48.png">
       <PackagePath>iconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.651</Modified>
+      <Modified>2025-05-17T20:12:20.360</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-100.png">
       <PackagePath>iconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.640</Modified>
+      <Modified>2025-05-17T20:12:20.351</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-125.png">
       <PackagePath>iconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.640</Modified>
+      <Modified>2025-05-17T20:12:20.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-150.png">
       <PackagePath>iconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.639</Modified>
+      <Modified>2025-05-17T20:12:20.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-200.png">
       <PackagePath>iconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.639</Modified>
+      <Modified>2025-05-17T20:12:20.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconMediumTile.scale-400.png">
       <PackagePath>iconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.638</Modified>
+      <Modified>2025-05-17T20:12:20.349</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-100.png">
       <PackagePath>iconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.643</Modified>
+      <Modified>2025-05-17T20:12:20.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-125.png">
       <PackagePath>iconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.642</Modified>
+      <Modified>2025-05-17T20:12:20.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-150.png">
       <PackagePath>iconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.642</Modified>
+      <Modified>2025-05-17T20:12:20.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-200.png">
       <PackagePath>iconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.641</Modified>
+      <Modified>2025-05-17T20:12:20.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconSmallTile.scale-400.png">
       <PackagePath>iconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.641</Modified>
+      <Modified>2025-05-17T20:12:20.351</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-100.png">
       <PackagePath>iconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.645</Modified>
+      <Modified>2025-05-17T20:12:20.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-125.png">
       <PackagePath>iconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.645</Modified>
+      <Modified>2025-05-17T20:12:20.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-150.png">
       <PackagePath>iconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.644</Modified>
+      <Modified>2025-05-17T20:12:20.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-200.png">
       <PackagePath>iconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.644</Modified>
+      <Modified>2025-05-17T20:12:20.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconStoreLogo.scale-400.png">
       <PackagePath>iconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.643</Modified>
+      <Modified>2025-05-17T20:12:20.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-100.png">
       <PackagePath>iconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.638</Modified>
+      <Modified>2025-05-17T20:12:20.349</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-125.png">
       <PackagePath>iconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.637</Modified>
+      <Modified>2025-05-17T20:12:20.349</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-150.png">
       <PackagePath>iconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.637</Modified>
+      <Modified>2025-05-17T20:12:20.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-200.png">
       <PackagePath>iconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.636</Modified>
+      <Modified>2025-05-17T20:12:20.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\iconWideTile.scale-400.png">
       <PackagePath>iconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.636</Modified>
+      <Modified>2025-05-17T20:12:20.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\info.scale-100.png">
       <PackagePath>info.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.627</Modified>
+      <Modified>2025-05-17T20:12:20.375</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\newinfo.scale-100.png">
       <PackagePath>newinfo.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.627</Modified>
+      <Modified>2025-05-17T20:12:20.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\newpets.scale-100.png">
       <PackagePath>newpets.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.626</Modified>
+      <Modified>2025-05-17T20:12:20.365</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pets.scale-100.png">
       <PackagePath>pets.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.626</Modified>
+      <Modified>2025-05-17T20:12:20.364</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\petsconsult.scale-100.png">
       <PackagePath>petsconsult.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.625</Modified>
+      <Modified>2025-05-17T20:12:20.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\playing.scale-100.jpg">
       <PackagePath>playing.scale-100.jpg</PackagePath>
-      <Modified>2025-04-03T00:05:33.625</Modified>
+      <Modified>2025-05-17T20:12:20.371</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\roedor.scale-100.png">
       <PackagePath>roedor.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.624</Modified>
+      <Modified>2025-05-17T20:12:20.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sport.scale-100.jpeg">
       <PackagePath>sport.scale-100.jpeg</PackagePath>
-      <Modified>2025-04-03T00:05:33.624</Modified>
+      <Modified>2025-05-17T20:12:20.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\training.scale-100.jpg">
       <PackagePath>training.scale-100.jpg</PackagePath>
-      <Modified>2025-04-03T00:05:33.656</Modified>
+      <Modified>2025-05-17T20:12:20.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\turtle.scale-100.png">
       <PackagePath>turtle.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.656</Modified>
+      <Modified>2025-05-17T20:12:20.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\userimage.scale-100.png">
       <PackagePath>userimage.scale-100.png</PackagePath>
-      <Modified>2025-04-03T00:05:33.658</Modified>
+      <Modified>2025-05-17T20:12:20.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppChicoVet.deps.json">
       <PackagePath>AppChicoVet.deps.json</PackagePath>
-      <Modified>2025-04-03T00:53:41.117</Modified>
+      <Modified>2025-05-17T19:48:33.417</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -521,6 +525,22 @@
     <AppxPackagedFile Include="C:\Users\Dudis\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2024-08-01T22:37:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dudis\.nuget\packages\sqlite-net-sqlcipher\1.9.172\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2024-03-27T22:22:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dudis\.nuget\packages\sqlitepclraw.bundle_e_sqlcipher\2.1.2\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2022-09-18T19:29:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dudis\.nuget\packages\sqlitepclraw.core\2.1.2\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2022-09-18T19:26:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dudis\.nuget\packages\sqlitepclraw.provider.e_sqlcipher\2.1.2\lib\net6.0-windows7.0\SQLitePCLRaw.provider.e_sqlcipher.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlcipher.dll</PackagePath>
+      <Modified>2022-09-18T19:27:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\.nuget\packages\microsoft.maui.controls.core\8.0.100\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
@@ -665,6 +685,10 @@
     <AppxPackagedFile Include="C:\Users\Dudis\.nuget\packages\microsoft.windowsappsdk\1.5.240802000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2024-06-25T19:48:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dudis\.nuget\packages\sqlitepclraw.lib.e_sqlcipher\2.1.2\runtimes\win-x64\native\e_sqlcipher.dll">
+      <PackagePath>e_sqlcipher.dll</PackagePath>
+      <Modified>2022-09-18T19:20:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\.nuget\packages\microsoft.maui.controls.compatibility\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

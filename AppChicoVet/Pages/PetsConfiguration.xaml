@@ -5,9 +5,9 @@
              Title="PetsConfiguration">
 
     <ScrollView>
-        <VerticalStackLayout
-         Padding="20"
-         Spacing="10">
+        <VerticalStackLayout 
+            Padding="20" 
+            Spacing="10">
 
             <Label
              x:Name="lblVoltar"
@@ -19,11 +19,11 @@
              TranslationY="30"
              FontSize="20"
              TextColor="#513635">
-
+                
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="BackToPets"/>
                 </Label.GestureRecognizers>
-
+                
             </Label>
 
             <Image 
@@ -44,8 +44,15 @@
              x:Name="lblFoto"
              Text="Foto do Pet"
              WidthRequest="350"/>
+            
+             <Image 
+             x:Name="imgPet"
+             WidthRequest="20"
+             HeightRequest="20"
+             Aspect="AspectFill"
+             Margin="0, 10"/>
 
-            <Entry
+             <Entry
              x:Name="etrFoto"
              Placeholder="(Imagem do animal)"
              WidthRequest="350"/>
@@ -54,7 +61,6 @@
              x:Name="lblNome"
              Text="Nome do Pet"
              WidthRequest="350"/>
-
             <Entry
              x:Name="etrNome"
              Placeholder="(Nome do animal)"
@@ -64,40 +70,37 @@
              x:Name="lblApelido"
              Text="Apelido do Pet"
              WidthRequest="350"/>
-
             <Entry
              x:Name="etrApelido"
-             Placeholder="(Apelido animal)"
+             Placeholder="(Apelido do animal)"
              WidthRequest="350"/>
 
             <Label 
              x:Name="lblNasc"
              Text="Data de Nascimento"
              WidthRequest="350"/>
-
             <DatePicker
              x:Name="dpNasc"
              WidthRequest="350">
             </DatePicker>
 
-
             <Label 
              x:Name="lblGenero"
              Text="Gênero"
              WidthRequest="350"/>
-
+            
             <Grid
-            RowDefinitions="Auto,Auto"
-            ColumnDefinitions="Auto,*"
-            WidthRequest="350">
-
+                RowDefinitions="Auto,Auto"
+                ColumnDefinitions="Auto,*"
+                WidthRequest="350">
+                
                 <RadioButton
                   Grid.Row="1"
                   Grid.ColumnSpan="1"
                   x:Name="rbFeminino"
                   Scale=".75"
                   TranslationX="-35"/>
-
+                
                 <Label 
                  Grid.Row="1"
                  Grid.ColumnSpan="1"
@@ -113,7 +116,7 @@
                  x:Name="rbMasculino"
                  Scale=".75"
                  TranslationX="-140"/>
-
+                
                 <Label 
                  Grid.Row="1"
                  Grid.Column="2"
@@ -122,20 +125,17 @@
                  WidthRequest="250"
                  TranslationX="-30"
                  TranslationY="11"/>
-
             </Grid>
 
             <Label 
              x:Name="lblEspecie"
              Text="Espécie"
              WidthRequest="350"/>
-
+            
             <Picker
                x:Name="pkEspecie"
                WidthRequest="350">
-
                 <Picker.ItemsSource>
-
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Cachorro</x:String>
                         <x:String>Gato</x:String>
@@ -144,9 +144,7 @@
                         <x:String>Tartaruga</x:String>
                         <x:String>Largarto</x:String>
                     </x:Array>
-
                 </Picker.ItemsSource>
-
             </Picker>
 
             <Button
@@ -156,28 +154,26 @@
              TranslationY="50"
              Margin="0,0,0,50"
              BackgroundColor="#513635"
-             Clicked="BackToPets"/>
+             Clicked="OnSaveClick"/>
 
             <Grid
               RowDefinitions="Auto,Auto"
               ColumnDefinitions="Auto,*"
               WidthRequest="350"
               Margin="0, 55, 0, 0">
-
                 <Label
                    Grid.Row="0"
                    Grid.Column="1"
                    Text="ATENÇÃO: Ação irreversível"
                    TextColor="Gray"
                    TranslationX="45"/>
-
                 <CheckBox
                  Grid.Row="1"
                  Grid.Column="0"
                  Scale=".75"
                  Color="DarkRed"
-                 TranslationX="115"/>
-
+                 TranslationX="115"
+                 x:Name="chkExcluirPet"/>
                 <Label
                    Grid.Row="1"
                    Grid.Column="1"
@@ -185,10 +181,7 @@
                    TextColor="DarkRed"
                    TranslationY="11"
                    TranslationX="105"/>
-
             </Grid>
-
         </VerticalStackLayout>
     </ScrollView>
-
 </ContentPage>

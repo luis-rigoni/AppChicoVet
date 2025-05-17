@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AppChicoVet.Models
 {
-    class Cliente
+    public class Cliente
     {
 
         [PrimaryKey, AutoIncrement]
