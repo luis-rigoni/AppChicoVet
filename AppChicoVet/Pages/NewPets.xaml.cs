@@ -39,7 +39,7 @@ namespace AppChicoVet.Pages
                     case "Gato":
                         imagemDoPet = "feline.png";
                         break;
-                    case "Papagaio":
+                    case "Pássaro":
                         imagemDoPet = "bird.png";
                         break;
                     case "Hamster":
@@ -47,6 +47,12 @@ namespace AppChicoVet.Pages
                         break;
                     case "Tartaruga":
                         imagemDoPet = "turtle.png";
+                        break;
+                    case "Lagarto":
+                        imagemDoPet = "lizard.png";
+                        break;
+                    case "Cobra":
+                        imagemDoPet = "snake.png";
                         break;
                     default:
                         imagemDoPet = "default.png";

@@ -256,6 +256,9 @@
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\info.scale-100.png">
       <PackagePath>info.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lizard.scale-100.png">
+      <PackagePath>lizard.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\newinfo.scale-100.png">
       <PackagePath>newinfo.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -273,6 +276,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\roedor.scale-100.png">
       <PackagePath>roedor.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\snake.scale-100.png">
+      <PackagePath>snake.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sport.scale-100.jpeg">
       <PackagePath>sport.scale-100.jpeg</PackagePath>

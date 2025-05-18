@@ -174,10 +174,11 @@
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Cachorro</x:String>
                         <x:String>Gato</x:String>
-                        <x:String>Papagaio</x:String>
+                        <x:String>Pássaro</x:String>
                         <x:String>Hamster</x:String>
                         <x:String>Tartaruga</x:String>
-                        <x:String>Largarto</x:String>
+                        <x:String>Lagarto</x:String>
+                        <x:String>Cobra</x:String>
                     </x:Array>
 
                 </Picker.ItemsSource>
