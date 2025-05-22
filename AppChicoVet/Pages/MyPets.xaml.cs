@@ -67,7 +67,7 @@ public partial class MyPets : ContentPage
                         imageSource = "snake.png";
                         break;
                     default:
-                        imageSource = "default.png";
+                        imageSource = "defaultimg.png";
                         break;
                 }
             }

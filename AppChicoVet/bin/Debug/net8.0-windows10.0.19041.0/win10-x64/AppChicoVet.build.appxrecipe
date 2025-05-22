@@ -82,8 +82,8 @@
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\canine.scale-100.png">
       <PackagePath>canine.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\default.scale-100.png">
-      <PackagePath>default.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\defaultimg.scale-100.png">
+      <PackagePath>defaultimg.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dudis\source\repos\AppChicoVet\AppChicoVet\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>

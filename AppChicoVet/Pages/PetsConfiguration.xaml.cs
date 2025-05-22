@@ -11,6 +11,7 @@ namespace AppChicoVet.Pages
         public PetsConfiguration()
         {
             InitializeComponent();
+            pkEspecie.SelectedIndexChanged += PkEspecie_SelectedIndexChanged;
         }
 
         public PetsConfiguration(Animal animal) : this()
@@ -36,7 +37,18 @@ namespace AppChicoVet.Pages
             { }
 
             pkEspecie.SelectedItem = _animalSelecionado.aniEspecie;
-            imgPet.Source = ImageSource.FromFile(_animalSelecionado.aniImagem);
+
+            if (!string.IsNullOrEmpty(_animalSelecionado.aniImagem))
+            {
+                imgPet.Source = ImageSource.FromFile(_animalSelecionado.aniImagem);
+                imgPet.IsVisible = true;
+                btnRemoverImagem.IsVisible = true;
+            }
+            else
+            {
+                imgPet.IsVisible = false;
+                btnRemoverImagem.IsVisible = false;
+            }
         }
 
         private async void OnSaveClick(object sender, EventArgs e)
@@ -60,12 +72,12 @@ namespace AppChicoVet.Pages
             }
 
             await App.Db.Update(_animalSelecionado);
-            await Navigation.PopAsync(); 
+            await Navigation.PopAsync();
         }
 
         private async void BackToPets(object sender, EventArgs e)
         {
-            await Navigation.PopAsync(); 
+            await Navigation.PopAsync();
         }
 
         private async void SelecionarFotoClicked(object sender, EventArgs e)
@@ -109,5 +121,67 @@ namespace AppChicoVet.Pages
             btnRemoverImagem.IsVisible = false;
         }
 
+        private void PkEspecie_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string especieSelecionada = pkEspecie.SelectedItem?.ToString() ?? "empty";
+            string imagemAtual = _animalSelecionado.aniImagem?.ToLower() ?? "";
+            string imagemDoPet = string.Empty;
+
+            bool imagemPadrao = imagemAtual.EndsWith("canine.png") ||
+                                imagemAtual.EndsWith("feline.png") ||
+                                imagemAtual.EndsWith("bird.png") ||
+                                imagemAtual.EndsWith("roedor.png") ||
+                                imagemAtual.EndsWith("turtle.png") ||
+                                imagemAtual.EndsWith("lizard.png") ||
+                                imagemAtual.EndsWith("snake.png") ||
+                                imagemAtual.EndsWith("defaultimg.png") ||
+                                string.IsNullOrWhiteSpace(imagemAtual);
+
+            if (imagemPadrao)
+            {
+                switch (especieSelecionada)
+                {
+                    case "Cachorro":
+                        imagemDoPet = "canine.png";
+                        break;
+                    case "Gato":
+                        imagemDoPet = "feline.png";
+                        break;
+                    case "Pássaro":
+                        imagemDoPet = "bird.png";
+                        break;
+                    case "Hamster":
+                        imagemDoPet = "roedor.png";
+                        break;
+                    case "Tartaruga":
+                        imagemDoPet = "turtle.png";
+                        break;
+                    case "Lagarto":
+                        imagemDoPet = "lizard.png";
+                        break;
+                    case "Cobra":
+                        imagemDoPet = "snake.png";
+                        break;
+                    default:
+                        imagemDoPet = "defaultimg.png";
+                        break;
+                }
+
+                _animalSelecionado.aniImagem = imagemDoPet;
+            }
+
+            if (!string.IsNullOrEmpty(_animalSelecionado.aniImagem))
+            {
+                imgPet.Source = ImageSource.FromFile(_animalSelecionado.aniImagem);
+                imgPet.IsVisible = true;
+                btnRemoverImagem.IsVisible = true;
+            }
+            else
+            {
+                imgPet.Source = null;
+                imgPet.IsVisible = false;
+                btnRemoverImagem.IsVisible = false;
+            }
+        }
     }
 }

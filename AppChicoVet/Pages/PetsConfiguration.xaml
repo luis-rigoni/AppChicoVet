@@ -80,7 +80,7 @@
              WidthRequest="350"/>
             <Entry
              x:Name="etrNome"
-             Placeholder="(Nome do animal)"
+             Placeholder=""
              WidthRequest="350"/>
 
             <Label 
@@ -89,13 +89,14 @@
              WidthRequest="350"/>
             <Entry
              x:Name="etrApelido"
-             Placeholder="(Apelido do animal)"
+             Placeholder=""
              WidthRequest="350"/>
 
             <Label 
              x:Name="lblNasc"
              Text="Data de Nascimento"
              WidthRequest="350"/>
+            
             <DatePicker
              x:Name="dpNasc"
              WidthRequest="350">
@@ -156,7 +157,7 @@
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Cachorro</x:String>
                         <x:String>Gato</x:String>
-                        <x:String>Papagaio</x:String>
+                        <x:String>Pássaro</x:String>
                         <x:String>Hamster</x:String>
                         <x:String>Tartaruga</x:String>
                         <x:String>Largarto</x:String>

@@ -55,7 +55,7 @@ namespace AppChicoVet.Pages
                         imagemDoPet = "snake.png";
                         break;
                     default:
-                        imagemDoPet = "default.png";
+                        imagemDoPet = "defaultimg.png";
                         break;
                 }
             }
