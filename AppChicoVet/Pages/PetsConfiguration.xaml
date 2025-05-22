@@ -43,7 +43,7 @@
             <Label 
              x:Name="lblFoto"
              Text="Foto do Pet"
-             WidthRequest="350"/>
+             WidthRequest="250"/>
 
             <Button
              x:Name="btnSelecionarFoto"
@@ -65,8 +65,8 @@
                 Text="✕"
                 TextColor="Red"
                 BackgroundColor="Transparent"
-                WidthRequest="30"
-                HeightRequest="30"
+                WidthRequest="100"
+                HeightRequest="100"
                 FontSize="12"
                 AbsoluteLayout.LayoutBounds="1,0,25,25"
                 AbsoluteLayout.LayoutFlags="PositionProportional"

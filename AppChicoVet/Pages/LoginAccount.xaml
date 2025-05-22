@@ -16,74 +16,35 @@
            WidthRequest="125"/>
 
             <Label
-           x:Name="lblTitle"
-           HorizontalTextAlignment="Center"
-           Text="Login"
-           FontAttributes="Bold"
-           FontSize="30"
-           TranslationY="-20"
-           TextColor="#513635"
-           Margin="0, -25, 0, 0"/>
+               x:Name="lblTitle"
+               HorizontalTextAlignment="Center"
+               Text="Login"
+               FontAttributes="Bold"
+               FontSize="30"
+               TranslationY="-20"
+               TextColor="#513635"
+               Margin="0, -25, 0, 0"/>
 
             <Label 
-           x:Name="lblEmail"
-           TranslationX="-55"
-           Text="Email ou nome"
-           WidthRequest="250"/>
-
-            <Grid
-               RowDefinitions="Auto,Auto"
-               ColumnDefinitions="Auto,*">
-
-                <Entry
-               Grid.Row="1"
-               Grid.ColumnSpan="2"
-               x:Name="etrEmail"
-               TranslationX="-55"
-               Placeholder=""
+               x:Name="lblEmail"
+               Text="Email ou nome"
                WidthRequest="250"/>
 
-                <Button
-               Grid.Row="1"
-               Grid.ColumnSpan="2"
-               x:Name="btlLimparEmail"
-               TranslationX="135"
-               Text="Limpar"
-               WidthRequest="100"
-               BackgroundColor="#8E6864"/>
-            </Grid>
-
+            <Entry
+               x:Name="etrEmail"
+               Placeholder=""
+               WidthRequest="250"/>
 
             <Label
                x:Name="lblSenha"
-               TranslationX="-55"
                Text="Senha"
                WidthRequest="250"/>
 
-            <Grid
-               RowDefinitions="Auto,Auto"
-               ColumnDefinitions="Auto,*"
-               Margin="0,0,0,50">
-
-                <Entry
-               Grid.Row="1"
-               Grid.ColumnSpan="2"
-               x:Name="etrSenha"
-               IsPassword="True"
-               TranslationX="-55"
-               Placeholder=""
-               WidthRequest="250"/>
-
-                <Button
-               Grid.Row="1"
-               Grid.ColumnSpan="2"
-               x:Name="btlLimparSenha"
-               TranslationX="135"
-               Text="Limpar"
-               WidthRequest="100"
-               BackgroundColor="#8E6864"/>
-
-            </Grid>
+            <Entry
+                x:Name="etrSenha"
+                IsPassword="True"
+                Placeholder=""
+                WidthRequest="250"/>
 
             <Button
                x:Name="btnAcessar"
