@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\AppChicoVet.csproj": {}
+    "C:\\Users\\luisb\\Source\\Repos\\AppChicoVet\\AppChicoVet\\AppChicoVet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\AppChicoVet.csproj": {
+    "C:\\Users\\luisb\\Source\\Repos\\AppChicoVet\\AppChicoVet\\AppChicoVet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\AppChicoVet.csproj",
+        "projectUniqueName": "C:\\Users\\luisb\\Source\\Repos\\AppChicoVet\\AppChicoVet\\AppChicoVet.csproj",
         "projectName": "AppChicoVet",
-        "projectPath": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\AppChicoVet.csproj",
+        "projectPath": "C:\\Users\\luisb\\Source\\Repos\\AppChicoVet\\AppChicoVet\\AppChicoVet.csproj",
         "packagesPath": "C:\\Users\\luisb\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\obj\\",
         "projectStyle": "PackageReference",

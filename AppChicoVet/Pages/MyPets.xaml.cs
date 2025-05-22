@@ -54,7 +54,7 @@ public partial class MyPets : ContentPage
                     case "pássaro":
                         imageSource = "bird.png";
                         break;
-                    case "hamster":
+                    case "roedor":
                         imageSource = "roedor.png";
                         break;
                     case "tartaruga":

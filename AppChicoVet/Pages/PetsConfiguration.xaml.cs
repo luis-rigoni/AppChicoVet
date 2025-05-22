@@ -150,7 +150,7 @@ namespace AppChicoVet.Pages
                     case "Pássaro":
                         imagemDoPet = "bird.png";
                         break;
-                    case "Hamster":
+                    case "Roedor":
                         imagemDoPet = "roedor.png";
                         break;
                     case "Tartaruga":
