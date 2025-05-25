@@ -1,5 +1,7 @@
 namespace AppChicoVet.Pages;
 
+using AppChicoVet.Models;
+
 public partial class PetsConsult : ContentPage
 {
 	public PetsConsult()

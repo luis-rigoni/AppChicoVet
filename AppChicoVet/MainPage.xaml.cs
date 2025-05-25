@@ -12,7 +12,7 @@ namespace AppChicoVet
 
         private async void GotoAccount(Object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new LoginAccount());
+            await Navigation.PushAsync(new MyAccount());
         }
 
         private async void GotoPets(Object sender, EventArgs e)

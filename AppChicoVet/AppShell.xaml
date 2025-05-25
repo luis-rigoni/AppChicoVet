@@ -74,19 +74,19 @@
                     Icon="home.png"/>
 
         <ShellContent 
-			        Title="Minha Conta"
-                    ContentTemplate="{DataTemplate local:Pages.LoginAccount}"
-                    Route="LoginAccount"
+			        Title="Clientes"
+                    ContentTemplate="{DataTemplate local:Pages.MyAccount}"
+                    Route="MyAccount"
                     Icon="account.png"/>
 
         <ShellContent 
-			        Title="Meus Pets"
+			        Title="Animais"
                     ContentTemplate="{DataTemplate local:Pages.MyPets}"
                     Route="MyPets"
                     Icon="newpets.png"/>
 
         <ShellContent 
-		            Title="Minhas Consultas"
+		            Title="Espécies"
                     ContentTemplate="{DataTemplate local:Pages.PetsConsult}"
                     Route="PetsConsult"
                     Icon="petsconsult.png"/>

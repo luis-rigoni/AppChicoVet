@@ -1,38 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\",
+  "WorkspaceRootPath": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\luisb\\source\\repos\\appchicovet\\appchicovet\\pages\\mypets.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\pages\\mypets.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\dudis\\source\\repos\\appchicovet\\appchicovet\\pages\\newaccount.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\pages\\newaccount.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\luisb\\source\\repos\\appchicovet\\appchicovet\\pages\\petsconfiguration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\pages\\petsconfiguration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\dudis\\source\\repos\\appchicovet\\appchicovet\\pages\\newaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\pages\\newaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\luisb\\source\\repos\\appchicovet\\appchicovet\\pages\\petsconfiguration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\dudis\\source\\repos\\appchicovet\\appchicovet\\pages\\accountconfiguration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\pages\\accountconfiguration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\dudis\\source\\repos\\appchicovet\\appchicovet\\pages\\petsconfiguration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\pages\\petsconfiguration.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\luisb\\source\\repos\\appchicovet\\appchicovet\\pages\\newpets.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\pages\\newpets.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\dudis\\source\\repos\\appchicovet\\appchicovet\\pages\\accountconfiguration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\pages\\accountconfiguration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\luisb\\source\\repos\\appchicovet\\appchicovet\\pages\\mypets.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\pages\\mypets.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\dudis\\source\\repos\\appchicovet\\appchicovet\\pages\\loginaccount.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\pages\\loginaccount.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\luisb\\source\\repos\\appchicovet\\appchicovet\\pages\\newpets.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\pages\\newpets.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\dudis\\source\\repos\\appchicovet\\appchicovet\\pages\\loginaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\pages\\loginaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\luisb\\source\\repos\\appchicovet\\appchicovet\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\dudis\\source\\repos\\appchicovet\\appchicovet\\pages\\myaccount.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\pages\\myaccount.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\dudis\\source\\repos\\appchicovet\\appchicovet\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\luisb\\source\\repos\\appchicovet\\appchicovet\\pages\\loginaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\pages\\loginaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\dudis\\source\\repos\\appchicovet\\appchicovet\\pages\\mypets.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\pages\\mypets.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\dudis\\source\\repos\\appchicovet\\appchicovet\\models\\navigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\models\\navigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\dudis\\source\\repos\\appchicovet\\appchicovet\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\dudis\\source\\repos\\appchicovet\\appchicovet\\helpers\\sqlitedatabasehelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\helpers\\sqlitedatabasehelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\dudis\\source\\repos\\appchicovet\\appchicovet\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\dudis\\source\\repos\\appchicovet\\appchicovet\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|c:\\users\\dudis\\source\\repos\\appchicovet\\appchicovet\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F9A08C-77E5-45CB-92E2-75F77D3E7F07}|AppChicoVet\\AppChicoVet.csproj|solutionrelative:appchicovet\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,108 +74,214 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MyPets.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\MyPets.xaml.cs",
-              "RelativeDocumentMoniker": "AppChicoVet\\Pages\\MyPets.xaml.cs",
-              "ToolTip": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\MyPets.xaml.cs",
-              "RelativeToolTip": "AppChicoVet\\Pages\\MyPets.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T18:34:40.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MyPets.xaml",
-              "DocumentMoniker": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\MyPets.xaml",
-              "RelativeDocumentMoniker": "AppChicoVet\\Pages\\MyPets.xaml",
-              "ToolTip": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\MyPets.xaml",
-              "RelativeToolTip": "AppChicoVet\\Pages\\MyPets.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T17:30:32.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PetsConfiguration.xaml",
-              "DocumentMoniker": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\PetsConfiguration.xaml",
-              "RelativeDocumentMoniker": "AppChicoVet\\Pages\\PetsConfiguration.xaml",
-              "ToolTip": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\PetsConfiguration.xaml",
-              "RelativeToolTip": "AppChicoVet\\Pages\\PetsConfiguration.xaml",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKEAAAA2AAAAAAAAAA==",
+              "Title": "NewAccount.xaml",
+              "DocumentMoniker": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\NewAccount.xaml",
+              "RelativeDocumentMoniker": "AppChicoVet\\Pages\\NewAccount.xaml",
+              "ToolTip": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\NewAccount.xaml",
+              "RelativeToolTip": "AppChicoVet\\Pages\\NewAccount.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T17:26:27.999Z",
+              "WhenOpened": "2025-05-25T00:45:28.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewAccount.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\NewAccount.xaml.cs",
+              "RelativeDocumentMoniker": "AppChicoVet\\Pages\\NewAccount.xaml.cs",
+              "ToolTip": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\NewAccount.xaml.cs",
+              "RelativeToolTip": "AppChicoVet\\Pages\\NewAccount.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T00:41:56.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "NewPets.xaml",
-              "DocumentMoniker": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\NewPets.xaml",
-              "RelativeDocumentMoniker": "AppChicoVet\\Pages\\NewPets.xaml",
-              "ToolTip": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\NewPets.xaml",
-              "RelativeToolTip": "AppChicoVet\\Pages\\NewPets.xaml",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAAALEAAAAzAAAAAAAAAA==",
+              "Title": "PetsConfiguration.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\PetsConfiguration.xaml.cs",
+              "RelativeDocumentMoniker": "AppChicoVet\\Pages\\PetsConfiguration.xaml.cs",
+              "ToolTip": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\PetsConfiguration.xaml.cs",
+              "RelativeToolTip": "AppChicoVet\\Pages\\PetsConfiguration.xaml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwD8AAACFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T00:39:21.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountConfiguration.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\AccountConfiguration.xaml.cs",
+              "RelativeDocumentMoniker": "AppChicoVet\\Pages\\AccountConfiguration.xaml.cs",
+              "ToolTip": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\AccountConfiguration.xaml.cs",
+              "RelativeToolTip": "AppChicoVet\\Pages\\AccountConfiguration.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwD8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T00:39:16.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountConfiguration.xaml",
+              "DocumentMoniker": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\AccountConfiguration.xaml",
+              "RelativeDocumentMoniker": "AppChicoVet\\Pages\\AccountConfiguration.xaml",
+              "ToolTip": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\AccountConfiguration.xaml",
+              "RelativeToolTip": "AppChicoVet\\Pages\\AccountConfiguration.xaml",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T17:15:24.352Z",
+              "WhenOpened": "2025-05-25T00:39:09.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Navigation.cs",
+              "DocumentMoniker": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Models\\Navigation.cs",
+              "RelativeDocumentMoniker": "AppChicoVet\\Models\\Navigation.cs",
+              "ToolTip": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Models\\Navigation.cs",
+              "RelativeToolTip": "AppChicoVet\\Models\\Navigation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T00:13:15.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "AppChicoVet\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\MainPage.xaml.cs",
+              "RelativeToolTip": "AppChicoVet\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T00:07:03.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppChicoVet\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\AppShell.xaml",
+              "RelativeToolTip": "AppChicoVet\\AppShell.xaml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-25T00:06:05.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\MainPage.xaml",
+              "RelativeDocumentMoniker": "AppChicoVet\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\MainPage.xaml",
+              "RelativeToolTip": "AppChicoVet\\MainPage.xaml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-25T00:05:58.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppChicoVet\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppChicoVet\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T23:40:17.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "AppChicoVet\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Models\\Admin.cs",
+              "RelativeToolTip": "AppChicoVet\\Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T23:38:19.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "AppChicoVet\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\MainPage.xaml.cs",
-              "RelativeToolTip": "AppChicoVet\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T16:47:22.623Z"
+              "Title": "LoginAccount.xaml",
+              "DocumentMoniker": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\LoginAccount.xaml",
+              "RelativeDocumentMoniker": "AppChicoVet\\Pages\\LoginAccount.xaml",
+              "ToolTip": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\LoginAccount.xaml",
+              "RelativeToolTip": "AppChicoVet\\Pages\\LoginAccount.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-24T23:27:24.299Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "LoginAccount.xaml",
-              "DocumentMoniker": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\LoginAccount.xaml",
-              "RelativeDocumentMoniker": "AppChicoVet\\Pages\\LoginAccount.xaml",
-              "ToolTip": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\LoginAccount.xaml",
-              "RelativeToolTip": "AppChicoVet\\Pages\\LoginAccount.xaml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T16:31:38.334Z"
+              "Title": "MyAccount.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\MyAccount.xaml.cs",
+              "RelativeDocumentMoniker": "AppChicoVet\\Pages\\MyAccount.xaml.cs",
+              "ToolTip": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\MyAccount.xaml.cs",
+              "RelativeToolTip": "AppChicoVet\\Pages\\MyAccount.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T21:14:27.384Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PetsConfiguration.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\PetsConfiguration.xaml.cs",
-              "RelativeDocumentMoniker": "AppChicoVet\\Pages\\PetsConfiguration.xaml.cs",
-              "ToolTip": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\PetsConfiguration.xaml.cs",
-              "RelativeToolTip": "AppChicoVet\\Pages\\PetsConfiguration.xaml.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAmwJgAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "MyPets.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\MyPets.xaml.cs",
+              "RelativeDocumentMoniker": "AppChicoVet\\Pages\\MyPets.xaml.cs",
+              "ToolTip": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\MyPets.xaml.cs",
+              "RelativeToolTip": "AppChicoVet\\Pages\\MyPets.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:28:21.912Z",
+              "WhenOpened": "2025-05-24T20:58:24.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "NewPets.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\NewPets.xaml.cs",
-              "RelativeDocumentMoniker": "AppChicoVet\\Pages\\NewPets.xaml.cs",
-              "ToolTip": "C:\\Users\\luisb\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\NewPets.xaml.cs",
-              "RelativeToolTip": "AppChicoVet\\Pages\\NewPets.xaml.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwC4AAAAeAAAAAAAAAA==",
+              "Title": "LoginAccount.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\LoginAccount.xaml.cs",
+              "RelativeDocumentMoniker": "AppChicoVet\\Pages\\LoginAccount.xaml.cs",
+              "ToolTip": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Pages\\LoginAccount.xaml.cs",
+              "RelativeToolTip": "AppChicoVet\\Pages\\LoginAccount.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T12:21:55.31Z",
+              "WhenOpened": "2025-05-24T22:39:47.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SQLiteDatabaseHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Helpers\\SQLiteDatabaseHelpers.cs",
+              "RelativeDocumentMoniker": "AppChicoVet\\Helpers\\SQLiteDatabaseHelpers.cs",
+              "ToolTip": "C:\\Users\\Dudis\\source\\repos\\AppChicoVet\\AppChicoVet\\Helpers\\SQLiteDatabaseHelpers.cs",
+              "RelativeToolTip": "AppChicoVet\\Helpers\\SQLiteDatabaseHelpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T20:51:21.75Z",
               "EditorCaption": ""
             }
           ]

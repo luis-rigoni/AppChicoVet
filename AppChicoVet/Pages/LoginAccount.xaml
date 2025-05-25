@@ -10,10 +10,11 @@
            Spacing="10">
 
             <Image 
-           Aspect="AspectFit" 
-           Source="appicon.png"
-           HeightRequest="125"
-           WidthRequest="125"/>
+               Aspect="AspectFit" 
+               Source="appicon.png"
+               HeightRequest="125"
+               WidthRequest="125"
+               Margin="0, 30, 0, 0"/>
 
             <Label
                x:Name="lblTitle"
@@ -26,12 +27,12 @@
                Margin="0, -25, 0, 0"/>
 
             <Label 
-               x:Name="lblEmail"
-               Text="Email ou nome"
+               x:Name="lblNome"
+               Text="Identificador"
                WidthRequest="250"/>
 
             <Entry
-               x:Name="etrEmail"
+               x:Name="etrNome"
                Placeholder=""
                WidthRequest="250"/>
 
@@ -50,69 +51,7 @@
                x:Name="btnAcessar"
                Text="Acessar"
                WidthRequest="250"
-               BackgroundColor="#513635"
-               Clicked="GotoAccount"/>
-
-
-            <Grid
-               RowDefinitions="Auto,Auto"
-               ColumnDefinitions="Auto,*">
-
-                <Label
-               Grid.Row="1"
-               Grid.ColumnSpan="2"
-               x:Name="lblSemConta"
-               TranslationX="-43"
-               Text="Não possui conta?"
-               WidthRequest="250"
-               HorizontalTextAlignment="Center"/>
-
-                <Label
-               Grid.Row="1"
-               Grid.ColumnSpan="2"
-               TextColor="#513635"
-               FontAttributes="Bold"
-               x:Name="lblSemContaLink"
-               TranslationX="57"
-               Text="Criar conta"
-               WidthRequest="250"
-               HorizontalTextAlignment="Center">
-
-                  <Label.GestureRecognizers>
-                     <TapGestureRecognizer Tapped="ChangingPageNewAccount"/>
-                  </Label.GestureRecognizers>
-                    
-              </Label>
-
-            </Grid>
-
-
-            <Grid
-               RowDefinitions="Auto,Auto"
-               ColumnDefinitions="Auto,*">
-
-              <Label
-               Grid.Row="1"
-               Grid.ColumnSpan="2"
-               x:Name="lblEsqueciSenha"
-               TranslationX="-45"
-               Text="Esqueceu a senha?"
-               WidthRequest="250"
-               HorizontalTextAlignment="Center"/>
-
-               <Label
-               Grid.Row="1"
-               Grid.ColumnSpan="2"
-               TextColor="#513635"
-               FontAttributes="Bold"
-               x:Name="lblEsqueciSenhaLink"
-               TranslationX="60"
-               Text="Clique aqui"
-               WidthRequest="250"
-               HorizontalTextAlignment="Center"/>
-
-            </Grid>
-
+               BackgroundColor="#513635"/>
 
         </VerticalStackLayout>
     </ScrollView>

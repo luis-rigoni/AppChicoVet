@@ -71,13 +71,12 @@
              WidthRequest="350"/>
 
             <Label 
-             x:Name="lblSenha"
-             Text="Senha"
+             x:Name="lblTelefone"
+             Text="Telefone"
              WidthRequest="350"/>
 
             <Entry
-             x:Name="etrSenha"
-             IsPassword="True"
+             x:Name="etrTelefone"
              Placeholder=""
              WidthRequest="350"/>
 
@@ -97,9 +96,9 @@
              WidthRequest="350"/>
 
             <Grid
-            RowDefinitions="Auto,Auto"
-            ColumnDefinitions="Auto,*"
-            WidthRequest="350">
+                RowDefinitions="Auto,Auto"
+                ColumnDefinitions="Auto,*"
+                WidthRequest="350">
 
                 <RadioButton
                   Grid.Row="1"
@@ -151,109 +150,14 @@
 
             </Grid>
 
-            <Label 
-             x:Name="lblDisponibilidade"
-             Text="Disponibilidade"
-             WidthRequest="350"/>
-
-            <Slider
-               WidthRequest="350"
-               ThumbColor="#513635"
-               MinimumTrackColor="#513635">
-            </Slider>
-
-            <Grid
-             RowDefinitions="Auto,Auto"
-             ColumnDefinitions="Auto,*"
-             WidthRequest="350">
-
-                <Label
-                 Grid.Row="1"
-                 Grid.ColumnSpan="1"
-                 x:Name="lblManha"
-                 Margin="0, -15, 0, 0"
-                 Text="Manhã"
-                 WidthRequest="250"></Label>
-
-                <Label
-                 Grid.Row="1"
-                 Grid.ColumnSpan="2"
-                 x:Name="lblTarde"
-                 TranslationX="110"
-                 Margin="0, -15, 0, 0"
-                 Text="Tarde"
-                 WidthRequest="250"></Label>
-
-                <Label
-                 Grid.Row="1"
-                 Grid.ColumnSpan="3"
-                 x:Name="lblNoite"
-                 Margin="0, -15, 0, 0"
-                 Text="Noite"
-                 TranslationX="270"
-                 WidthRequest="250"></Label>
-
-            </Grid>
-
-        <Label 
-             Margin="0, 15, 0, 0"
-             x:Name="lblPlanos"
-             Text="Planos"
-             WidthRequest="350"/>
-
-        <Label 
-             Margin="0, -15, 0, 0"
-             x:Name="lblPlanosWarning"
-             Text="(Teste gratuitamente por 60 dias!)"
-             FontSize="12"
-             TextColor="#8E6864"
-             WidthRequest="350"/>
-
-            <Picker
-               x:Name="pkPlano"
-               WidthRequest="350">
-
-                <Picker.ItemsSource>
-
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Gratuito (R$0/mês)</x:String>
-                        <x:String>Iniciante (R$ 15/mês)</x:String>
-                        <x:String>Profissional (R$ 30/mês)</x:String>
-                        <x:String>Completo (R$ 45/mês)</x:String>
-                    </x:Array>
-
-                </Picker.ItemsSource>
-
-            </Picker>
-
-        <Label 
-             Margin="0, 15, 0, 0"
-             x:Name="lblSobre"
-             Text="Conte mais sobre você"
-             WidthRequest="350"/>
-
-        <Label 
-             Margin="0, -15, 0, 0"
-             x:Name="lblSobreWarning"
-             Text="(Pode ser adicionado mais tarde ao perfil)"
-             FontSize="12"
-             TextColor="#8E6864"
-             WidthRequest="350"/>
-
-            <Editor
-               WidthRequest="350"
-               AutoSize="TextChanges"
-               x:Name="edSobre">
-            </Editor>
-
-        <Button
+          <Button
            x:Name="btnConcluir"
            Text="Criar conta"
            WidthRequest="250"
            TranslationY="50"
            Margin="0,0,0,50"
            BackgroundColor="#513635"
-           Clicked="ChangingPageLoginAccount"/>
+           Clicked="btnConcluirClicked"/>
 
         </VerticalStackLayout>
     </ScrollView>

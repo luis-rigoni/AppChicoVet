@@ -19,9 +19,13 @@ namespace AppChicoVet.Models
 
         public string cliEmail { get; set; }
 
-        public string cliSenha { get; set; }
+        public string cliTelefone { get; set; }
 
-        public int cliDataCadastro { get; set; }
+        public string cliGenero { get; set; }
+
+        public DateTime cliDataCadastro { get; set; }
+
+        public DateTime cliDataNascimento { get; set; }
 
     }
 }

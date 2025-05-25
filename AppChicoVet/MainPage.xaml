@@ -54,7 +54,7 @@
                             IsOpaque="True"/>
                         
                         <Label 
-                            Text="Minha Conta" 
+                            Text="Clientes" 
                             TextColor="White" 
                             FontAttributes="Bold" 
                             FontSize="Medium" 
@@ -62,7 +62,7 @@
                             TranslationY="-175"/>
                         
                         <Label 
-                            Text="Acesse sua conta e confira as opções!" 
+                            Text="Verificar clientes cadastrados" 
                             TextColor="White" 
                             FontSize="15" 
                             HorizontalTextAlignment="Center"
@@ -102,7 +102,7 @@
                             IsOpaque="True"/>
                         
                         <Label 
-                            Text="Meus Pets" 
+                            Text="Animais" 
                             TextColor="White" 
                             FontAttributes="Bold" 
                             FontSize="Medium" 
@@ -110,7 +110,7 @@
                             TranslationY="-175"/>
                         
                         <Label 
-                            Text="Adicione e verifique seus Pets!" 
+                            Text="Verificar todos os animais" 
                             TextColor="White" 
                             FontSize="15" 
                             HorizontalOptions="Center"
@@ -151,7 +151,7 @@
                             IsOpaque="True"/>
                         
                         <Label 
-                            Text="Minhas Consultas" 
+                            Text="Espécies" 
                             TextColor="White"
                             FontAttributes="Bold" 
                             FontSize="Medium"
@@ -159,7 +159,7 @@
                             TranslationY="-175"/>
                         
                         <Label 
-                            Text="Agende e acompanhe suas consultas!"
+                            Text="Verificar espécies cadastradas"
                             TextColor="White" 
                             FontSize="15"
                             HorizontalOptions="Center"

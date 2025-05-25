@@ -20,300 +20,39 @@
             <Label
                x:Name="MainTitle"
                FontSize="30"
-               Text="Consultas"
+               Text="Espécies"
                HorizontalTextAlignment="Center"
                FontAttributes="Bold"
                TranslationY="-10"
                TextColor="#513635"
                Margin="0, -20, 0, 0"/>
 
+            <SearchBar 
+                x:Name="searchBar"
+                Placeholder="Pesquisar"
+                WidthRequest="350"
+                Margin="0, -10, 0, 50"/>
+            <!-- TextChanged=""-->
+
             <Label
                 FontSize="20"
-                Text="+ Agendar consulta"
+                Text="+ Cadastrar espécie"
                 HorizontalOptions="Center"
                 HorizontalTextAlignment="Center"
                 Margin="0, -10, 0, -25">
-
-                <Label.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="ChangingPageNewConsult"/>
-                </Label.GestureRecognizers>
-
+                <!--<Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped=""/>
+                </Label.GestureRecognizers>-->
             </Label>
 
             <FlexLayout 
-               Wrap="Wrap" 
-               JustifyContent="Center" 
-               AlignItems="Center" 
-               Direction="Row" 
-               Padding="2"
-               MaximumWidthRequest="1100">
-
-                <!-- =========================  Cards 1  ========================= -->
-                <Frame
-                   BackgroundColor="#826160"
-                   Padding="10"
-                   WidthRequest="450"
-                   HeightRequest="185"
-                   CornerRadius="10"
-                   Margin="10"
-                   HasShadow="True">
-
-                    <StackLayout 
-                       Spacing="10">
-
-                        <Image 
-                           Source="bath.jpg" 
-                           Aspect="Fill" 
-                           HeightRequest="200" 
-                           WidthRequest="200"
-                           IsOpaque="True"
-                           TranslationX="-110"/>
-
-                        <Label 
-                           Text="Banho e tosa" 
-                           TextColor="White" 
-                           FontAttributes="Bold" 
-                           FontSize="Medium" 
-                           HorizontalOptions="Center"
-                           TranslationY="-205"
-                           TranslationX="110"/>
-
-                        <Label 
-                           Text="Data: 12/10/2025 às 14:32" 
-                           TextColor="White" 
-                           FontSize="15" 
-                           HorizontalTextAlignment="Center"
-                           HorizontalOptions="Center"
-                           TranslationY="-185"
-                           TranslationX="110"
-                           WidthRequest="135"/>
-
-                        <Button 
-                           Text="Detalhes" 
-                           BackgroundColor="#513635" 
-                           TextColor="White" 
-                           WidthRequest="100" 
-                           TranslationY="-180"
-                           TranslationX="110"
-                           Clicked="ChangingPageViewConsult"/>
-                    </StackLayout>
-
-                </Frame>
-
-                <!-- =========================  Cards 2  ========================= -->
-
-                <Frame
-                   BackgroundColor="#826160"
-                   Padding="10"
-                   WidthRequest="450"
-                   HeightRequest="185"
-                   CornerRadius="10"
-                   Margin="10"
-                   HasShadow="True">
-
-                    <StackLayout 
-                       Spacing="10">
-
-                        <Image 
-                           Source="gotoconsults.jpg" 
-                           Aspect="Fill" 
-                           HeightRequest="200" 
-                           WidthRequest="200"
-                           IsOpaque="True"
-                           TranslationX="-110"/>
-
-                        <Label 
-                           Text="Exame" 
-                           TextColor="White" 
-                           FontAttributes="Bold" 
-                           FontSize="Medium" 
-                           HorizontalOptions="Center"
-                           TranslationY="-205"
-                           TranslationX="110"/>
-
-                        <Label 
-                           Text="Data: 11/01/2026 às 07:12" 
-                           TextColor="White" 
-                           FontSize="15" 
-                           HorizontalTextAlignment="Center"
-                           HorizontalOptions="Center"
-                           TranslationY="-185"
-                           TranslationX="110"
-                           WidthRequest="135"/>
-
-                        <Button 
-                           Text="Detalhes" 
-                           BackgroundColor="#513635" 
-                           TextColor="White" 
-                           WidthRequest="100" 
-                           TranslationY="-180"
-                           TranslationX="110"
-                           Clicked="ChangingPageViewConsult"/>
-                    </StackLayout>
-
-                </Frame>
-
-                <!-- =========================  Cards 3  ========================= -->
-
-                <Frame
-                   BackgroundColor="#826160"
-                   Padding="10"
-                   WidthRequest="450"
-                   HeightRequest="185"
-                   CornerRadius="10"
-                   Margin="10"
-                   HasShadow="True">
-
-                    <StackLayout 
-                       Spacing="10">
-
-                        <Image 
-                           Source="sport.jpeg" 
-                           Aspect="Fill" 
-                           HeightRequest="200" 
-                           WidthRequest="200"
-                           IsOpaque="True"
-                           TranslationX="-110"/>
-
-                        <Label 
-                           Text="Treinamento" 
-                           TextColor="White" 
-                           FontAttributes="Bold" 
-                           FontSize="Medium" 
-                           HorizontalOptions="Center"
-                           TranslationY="-205"
-                           TranslationX="110"/>
-
-                        <Label 
-                           Text="Data: 15/02/2026 às 10:15" 
-                           TextColor="White" 
-                           FontSize="15" 
-                           HorizontalTextAlignment="Center"
-                           HorizontalOptions="Center"
-                           TranslationY="-185"
-                           TranslationX="110"
-                           WidthRequest="135"/>
-
-                        <Button 
-                           Text="Detalhes" 
-                           BackgroundColor="#513635" 
-                           TextColor="White" 
-                           WidthRequest="100" 
-                           TranslationY="-180"
-                           TranslationX="110"
-                           Clicked="ChangingPageViewConsult"/>
-                    </StackLayout>
-
-                </Frame>
-
-                <!-- =========================  Cards 4 ========================= -->
-
-                <Frame
-                   BackgroundColor="#826160"
-                   Padding="10"
-                   WidthRequest="450"
-                   HeightRequest="185"
-                   CornerRadius="10"
-                   Margin="10"
-                   HasShadow="True">
-
-                    <StackLayout 
-                       Spacing="10">
-
-                        <Image 
-                           Source="training.jpg" 
-                           Aspect="Fill" 
-                           HeightRequest="200" 
-                           WidthRequest="200"
-                           IsOpaque="True"
-                           TranslationX="-110"/>
-
-                        <Label 
-                           Text="Adestramento" 
-                           TextColor="White" 
-                           FontAttributes="Bold" 
-                           FontSize="Medium" 
-                           HorizontalOptions="Center"
-                           TranslationY="-205"
-                           TranslationX="110"/>
-
-                        <Label 
-                           Text="Data: 04/03/2026 às 10:30" 
-                           TextColor="White" 
-                           FontSize="15" 
-                           HorizontalTextAlignment="Center"
-                           HorizontalOptions="Center"
-                           TranslationY="-185"
-                           TranslationX="110"
-                           WidthRequest="135"/>
-
-                        <Button 
-                           Text="Detalhes" 
-                           BackgroundColor="#513635" 
-                           TextColor="White" 
-                           WidthRequest="100" 
-                           TranslationY="-180"
-                           TranslationX="110"
-                           Clicked="ChangingPageViewConsult"/>
-                    </StackLayout>
-
-                </Frame>
-
-                <!-- =========================  Cards 5  ========================= -->
-
-
-                <Frame
-                   BackgroundColor="#826160"
-                   Padding="10"
-                   WidthRequest="450"
-                   HeightRequest="185"
-                   CornerRadius="10"
-                   Margin="10"
-                   HasShadow="True">
-
-                    <StackLayout 
-                       Spacing="10">
-
-                        <Image 
-                           Source="playing.jpg" 
-                           Aspect="Fill" 
-                           HeightRequest="200" 
-                           WidthRequest="200"
-                           IsOpaque="True"
-                           TranslationX="-110"/>
-
-                        <Label 
-                           Text="Recreamento" 
-                           TextColor="White" 
-                           FontAttributes="Bold" 
-                           FontSize="Medium" 
-                           HorizontalOptions="Center"
-                           TranslationY="-205"
-                           TranslationX="110"/>
-
-                        <Label 
-                           Text="Data: 21/04/2026 às 13:19" 
-                           TextColor="White" 
-                           FontSize="15" 
-                           HorizontalTextAlignment="Center"
-                           HorizontalOptions="Center"
-                           TranslationY="-185"
-                           TranslationX="110"
-                           WidthRequest="135"/>
-
-                        <Button 
-                           Text="Detalhes" 
-                           BackgroundColor="#513635" 
-                           TextColor="White" 
-                           WidthRequest="100" 
-                           TranslationY="-180"
-                           TranslationX="110"
-                           Clicked="ChangingPageViewConsult"/>
-                    </StackLayout>
-
-                </Frame>
-
-            </FlexLayout>
+                x:Name="cardsContainer"
+                Wrap="Wrap"
+                JustifyContent="Center"
+                AlignItems="Center"
+                Direction="Row"
+                Padding="2"
+                MaximumWidthRequest="1100" />
 
         </VerticalStackLayout>
     </ScrollView>

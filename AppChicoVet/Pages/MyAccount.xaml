@@ -11,7 +11,7 @@
 
             <Image
                 x:Name="MainIcon"
-                Source="userimage.png"
+                Source="account.png"
                 WidthRequest="100"
                 HeightRequest="100"
                 HorizontalOptions="Center"
@@ -20,167 +20,37 @@
             <Label
                 x:Name="MainTitle"
                 FontSize="30"
-                Text="Minha conta"
+                Text="Clientes"
                 HorizontalTextAlignment="Center"
                 FontAttributes="Bold"
                 TranslationY="-10"
                 TextColor="#513635"
                 Margin="0, -20, 0, 0"/>
 
-            <FlexLayout 
-                Wrap="Wrap" 
-                JustifyContent="Center" 
-                AlignItems="Center" 
-                Direction="Row" 
-                Padding="2">
+            <SearchBar 
+                x:Name="searchBar"
+                Placeholder="Pesquisar"
+                WidthRequest="350"
+                Margin="0, -10, 0, 50"
+                TextChanged="searchBarChanged" />
 
-                <!-- =========================  Configurações  ========================= -->
-                <Frame
-                BackgroundColor="#826160"
-                Padding="10"
-                WidthRequest="250"
-                HeightRequest="250"
-                CornerRadius="10"
-                Margin="10"
-                HasShadow="True">
+            <Label
+                FontSize="20"
+                Text="+ Cadastrar cliente"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                Margin="0, -10, 0, -25">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="NewAccount"/>
+                </Label.GestureRecognizers>
+            </Label>
 
-                    <StackLayout 
-                        Spacing="10">
-
-                        <Image 
-                            Source="brightbackground.png" 
-                            Aspect="Fill" 
-                            HeightRequest="190" 
-                            WidthRequest="250"
-                            IsOpaque="True"/>
-
-                        <Label 
-                            Text="Configurações" 
-                            TextColor="White" 
-                            FontAttributes="Bold" 
-                            FontSize="Medium" 
-                            HorizontalOptions="Center"
-                            TranslationY="-175"/>
-
-                        <Label 
-                            Text="Configurar conta" 
-                            TextColor="White" 
-                            FontSize="15" 
-                            HorizontalTextAlignment="Center"
-                            HorizontalOptions="Center"
-                            TranslationY="-160"
-                            WidthRequest="155"/>
-
-                        <Button 
-                            Text="Acessar" 
-                            BackgroundColor="#513635" 
-                            TextColor="White" 
-                            WidthRequest="100" 
-                            TranslationY="-100"
-                            Clicked="GotoConfig"/>
-                    </StackLayout>
-
-                </Frame>
-
-                <!-- =========================  Pets  ========================= -->
-                <Frame
-                BackgroundColor="#826160"
-                Padding="10"
-                WidthRequest="250"
-                HeightRequest="250"
-                CornerRadius="10"
-                Margin="10"
-                HasShadow="True">
-
-                    <StackLayout 
-                        Spacing="10">
-
-                        <Image 
-                            Source="brightbackground.png" 
-                            Aspect="Fill" 
-                            HeightRequest="190" 
-                            WidthRequest="250"
-                            IsOpaque="True"/>
-
-                        <Label 
-                            Text="Meus Pets" 
-                            TextColor="White" 
-                            FontAttributes="Bold" 
-                            FontSize="Medium" 
-                            HorizontalOptions="Center"
-                            TranslationY="-175"/>
-
-                        <Label 
-                            Text="Ver todos os Pets" 
-                            TextColor="White" 
-                            FontSize="15" 
-                            HorizontalOptions="Center"
-                            HorizontalTextAlignment="Center"
-                            TranslationY="-160"
-                            WidthRequest="155"/>
-
-                        <Button 
-                            Text="Acessar" 
-                            BackgroundColor="#513635"
-                            TextColor="White" 
-                            WidthRequest="100" 
-                            TranslationY="-100"
-                            Clicked="GotoPets"/>
-
-                    </StackLayout>
-
-                </Frame>
-
-                <!-- =========================  Consultas  ========================= -->
-                <Frame
-                BackgroundColor="#826160"
-                Padding="10"
-                WidthRequest="250"
-                HeightRequest="250"
-                CornerRadius="10"
-                Margin="10"
-                HasShadow="True">
-
-                    <StackLayout 
-                        Spacing="10">
-
-                        <Image 
-                            Source="brightbackground.png" 
-                            Aspect="Fill" 
-                            HeightRequest="190"
-                            WidthRequest="250"
-                            IsOpaque="True"/>
-
-                        <Label 
-                            Text="Minhas Consultas" 
-                            TextColor="White"
-                            FontAttributes="Bold" 
-                            FontSize="Medium"
-                            HorizontalOptions="Center"
-                            TranslationY="-175"/>
-
-                        <Label 
-                            Text="Ver consultas"
-                            TextColor="White" 
-                            FontSize="15"
-                            HorizontalOptions="Center"
-                            HorizontalTextAlignment="Center"
-                            TranslationY="-160"
-                            WidthRequest="155"/>
-
-                        <Button 
-                            Text="Acessar" 
-                            BackgroundColor="#513635" 
-                            TextColor="White" 
-                            WidthRequest="100" 
-                            TranslationY="-100"
-                            Clicked="GotoConsults"/>
-
-                    </StackLayout>
-
-                </Frame>
-
-            </FlexLayout>
+            <ScrollView Orientation="Horizontal">
+                <VerticalStackLayout
+                    x:Name="cardsContainer"
+                    Spacing="5"
+                    Padding="2"/>
+            </ScrollView>
 
         </VerticalStackLayout>
     </ScrollView>

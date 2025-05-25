@@ -1,19 +1,12 @@
-namespace AppChicoVet.Pages;
+using AppChicoVet.Models;
 
-public partial class LoginAccount : ContentPage
+namespace AppChicoVet.Pages
 {
-	public LoginAccount()
-	{
-		InitializeComponent();
-	}
-
-	private async void ChangingPageNewAccount(Object sender, EventArgs e)
-	{
-		await Navigation.PushAsync(new NewAccount());
-	}
-    private async void GotoAccount(Object sender, EventArgs e)
+    public partial class LoginAccount : ContentPage
     {
-        await Navigation.PushAsync(new MyAccount());
+        public LoginAccount()
+        {
+            InitializeComponent();
+        }
     }
-
 }

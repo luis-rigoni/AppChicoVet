@@ -36,6 +36,20 @@ public partial class MyPets : ContentPage
     {
         cardsContainer.Children.Clear();
 
+        if (!animais.Any())
+        {
+            cardsContainer.Children.Add(new Label
+            {
+                Text = "Sem registros encontrados.",
+                TextColor = Colors.Gray,
+                FontSize = 18,
+                HorizontalOptions = LayoutOptions.Center,
+                Margin = new Thickness(0, 20)
+            });
+
+            return;
+        }
+
         foreach (var animal in animais)
         {
 

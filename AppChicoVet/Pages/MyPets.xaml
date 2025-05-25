@@ -20,7 +20,7 @@
             <Label
                 x:Name="MainTitle"
                 FontSize="30"
-                Text="Meus Pets"
+                Text="Animais"
                 HorizontalTextAlignment="Center"
                 FontAttributes="Bold"
                 TranslationY="-10"
@@ -29,14 +29,14 @@
 
             <SearchBar 
                 x:Name="searchBar"
-                Placeholder="Pesquisar..."
+                Placeholder="Pesquisar"
                 WidthRequest="350"
                 Margin="0, -10, 0, 50"
                 TextChanged="searchBarChanged"/>
 
             <Label
                 FontSize="20"
-                Text="+ Adicionar pet"
+                Text="+ Cadastrar animal"
                 HorizontalOptions="Center"
                 HorizontalTextAlignment="Center"
                 Margin="0, -10, 0, -25">
