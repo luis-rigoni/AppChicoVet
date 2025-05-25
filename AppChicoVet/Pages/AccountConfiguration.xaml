@@ -35,14 +35,14 @@
             <Label
               x:Name="lblTitle"
               HorizontalTextAlignment="Center"
-              Text="Configurar Conta"
+              Text="Configurar conta"
               Margin="0,-25,0,15"
               FontSize="35"
               TextColor="#513635"/>
 
             <Label 
              x:Name="lblNome"
-             Text="Nome Completo"
+             Text="Nome completo"
              WidthRequest="350"/>
 
             <Entry
@@ -82,7 +82,7 @@
 
             <Label 
              x:Name="lblNasc"
-             Text="Data de Nascimento"
+             Text="Data de nascimento"
              WidthRequest="350"/>
 
             <DatePicker

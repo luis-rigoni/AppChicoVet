@@ -161,6 +161,24 @@
             </Grid>
 
             <Label 
+             x:Name="lblDono"
+             Text="Responsável pelo animal"
+             WidthRequest="350"/>
+
+            <Picker
+               x:Name="pkDono"
+               WidthRequest="350">
+
+                <Picker.ItemsSource>
+
+                    <x:Array Type="{x:Type x:String}">
+                    </x:Array>
+
+                </Picker.ItemsSource>
+
+            </Picker>
+
+            <Label 
              x:Name="lblEspecie"
              Text="Espécie"
              WidthRequest="350"/>
@@ -172,13 +190,6 @@
                 <Picker.ItemsSource>
 
                     <x:Array Type="{x:Type x:String}">
-                        <x:String>Cachorro</x:String>
-                        <x:String>Gato</x:String>
-                        <x:String>Pássaro</x:String>
-                        <x:String>Roedor</x:String>
-                        <x:String>Tartaruga</x:String>
-                        <x:String>Lagarto</x:String>
-                        <x:String>Cobra</x:String>
                     </x:Array>
 
                 </Picker.ItemsSource>

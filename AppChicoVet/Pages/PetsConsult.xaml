@@ -31,28 +31,27 @@
                 x:Name="searchBar"
                 Placeholder="Pesquisar"
                 WidthRequest="350"
-                Margin="0, -10, 0, 50"/>
-            <!-- TextChanged=""-->
+                Margin="0, -10, 0, 50"
+                TextChanged="searchBarChanged"/>
 
             <Label
                 FontSize="20"
                 Text="+ Cadastrar espécie"
                 HorizontalOptions="Center"
                 HorizontalTextAlignment="Center"
-                Margin="0, -10, 0, -25">
-                <!--<Label.GestureRecognizers>
-                    <TapGestureRecognizer Tapped=""/>
-                </Label.GestureRecognizers>-->
+                Margin="0, -10, 0, -5">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="NewSpecie"/>
+                </Label.GestureRecognizers>
             </Label>
 
-            <FlexLayout 
-                x:Name="cardsContainer"
-                Wrap="Wrap"
-                JustifyContent="Center"
-                AlignItems="Center"
-                Direction="Row"
-                Padding="2"
-                MaximumWidthRequest="1100" />
+            <ScrollView Orientation="Horizontal">
+                <VerticalStackLayout
+                    x:Name="cardsContainer"
+                    Spacing="5"
+                    Padding="2"
+                    WidthRequest="600"/>
+            </ScrollView>
 
         </VerticalStackLayout>
     </ScrollView>

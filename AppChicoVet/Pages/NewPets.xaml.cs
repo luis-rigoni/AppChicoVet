@@ -3,6 +3,8 @@ using System;
 using System.IO;
 using Microsoft.Maui.Storage;
 using AppChicoVet.Models;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace AppChicoVet.Pages
 {
@@ -13,6 +15,24 @@ namespace AppChicoVet.Pages
         public NewPets()
         {
             InitializeComponent();
+            CarregarEspecies();
+            CarregarClientes();
+        }
+
+        private async void CarregarEspecies()
+        {
+            var path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "db_veterinario.db3");
+            var db = new SQLiteConnection(path);
+            var especies = db.Table<Especie>().ToList();
+            pkEspecie.ItemsSource = especies.Select(e => e.espNome).ToList();
+        }
+
+        private async void CarregarClientes()
+        {
+            var path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "db_veterinario.db3");
+            var db = new SQLiteConnection(path);
+            var clientes = db.Table<Cliente>().ToList();
+            pkDono.ItemsSource = clientes.Select(c => c.cliNome).ToList();
         }
 
         private async void ChangingPagePet(Object sender, EventArgs e)
@@ -23,6 +43,7 @@ namespace AppChicoVet.Pages
         private async void btnSalvarClicked(object sender, EventArgs e)
         {
             string especieSelecionada = pkEspecie.SelectedItem?.ToString() ?? "empty";
+            string donoSelecionado = pkDono.SelectedItem?.ToString() ?? "empty";
             string imagemDoPet = string.Empty;
 
             if (!string.IsNullOrEmpty(_caminhoImagemSelecionada))
@@ -31,27 +52,27 @@ namespace AppChicoVet.Pages
             }
             else
             {
-                switch (especieSelecionada)
+                switch (especieSelecionada.ToLower())
                 {
-                    case "Cachorro":
+                    case "cachorro":
                         imagemDoPet = "canine.png";
                         break;
-                    case "Gato":
+                    case "gato":
                         imagemDoPet = "feline.png";
                         break;
-                    case "Pássaro":
+                    case "pássaro":
                         imagemDoPet = "bird.png";
                         break;
-                    case "Roedor":
+                    case "roedor":
                         imagemDoPet = "roedor.png";
                         break;
-                    case "Tartaruga":
+                    case "tartaruga":
                         imagemDoPet = "turtle.png";
                         break;
-                    case "Lagarto":
+                    case "lagarto":
                         imagemDoPet = "lizard.png";
                         break;
-                    case "Cobra":
+                    case "cobra":
                         imagemDoPet = "snake.png";
                         break;
                     default:
@@ -68,16 +89,16 @@ namespace AppChicoVet.Pages
                 aniGenero = rbFeminino.IsChecked ? "Feminino" : (rbMasculino.IsChecked ? "Masculino" : "Indefinido"),
                 aniEspecie = especieSelecionada,
                 aniObservacoes = edSobre.Text,
-                aniStatus = "Ativo",
-                aniImagem = imagemDoPet
+                aniImagem = imagemDoPet,
+                aniDono = donoSelecionado
             };
 
-            var path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "db_veterinario.db3");
-            var db = new SQLiteConnection(path);
-            db.CreateTable<Animal>();
-            db.Insert(novoPet);
+            var dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "db_veterinario.db3");
+            var dbConnection = new SQLiteConnection(dbPath);
+            dbConnection.CreateTable<Animal>();
+            dbConnection.Insert(novoPet);
 
-            await DisplayAlert("Sucesso", "Pet adicionado com sucesso!", "OK");
+            await DisplayAlert("Sucesso", "Pet adicionado com sucesso.", "OK");
             await Navigation.PushAsync(new MyPets());
         }
 
@@ -104,7 +125,7 @@ namespace AppChicoVet.Pages
                     }
                     else
                     {
-                        await DisplayAlert("Formato inválido", "Por favor, selecione uma imagem PNG ou JPG.", "OK");
+                        await DisplayAlert("Formato inválido", "Selecione uma imagem PNG ou JPG.", "OK");
                     }
                 }
             }

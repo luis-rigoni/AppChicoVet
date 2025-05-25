@@ -40,7 +40,7 @@ public partial class MyPets : ContentPage
         {
             cardsContainer.Children.Add(new Label
             {
-                Text = "Sem registros encontrados.",
+                Text = "Sem registros.",
                 TextColor = Colors.Gray,
                 FontSize = 18,
                 HorizontalOptions = LayoutOptions.Center,
@@ -121,7 +121,7 @@ public partial class MyPets : ContentPage
                         },
                         new Label
                         {
-                            Text = $"Status: {animal.aniStatus}",
+                            Text = $"Dono(a):\n {FormatDonoName(animal.aniDono)}",
                             TextColor = Colors.White,
                             FontSize = 15,
                             HorizontalTextAlignment = TextAlignment.Center,
@@ -136,11 +136,11 @@ public partial class MyPets : ContentPage
                             BackgroundColor = Color.FromArgb("#513635"),
                             TextColor = Colors.White,
                             WidthRequest = 100,
-                            TranslationY = -120,
+                            TranslationY = -130,
                             TranslationX = 80,
                             Command = new Command(async () =>
                             {
-                                await Navigation.PushAsync(new PetsConfiguration(animal));
+                                await Navigation.PushAsync(new PetsConfiguration(animal, animal.aniEspecie, animal.aniDono));
                             })
                         }
                     }
@@ -149,6 +149,18 @@ public partial class MyPets : ContentPage
 
             cardsContainer.Children.Add(frame);
         }
+    }
+
+    private string FormatDonoName(string donoNome)
+    {
+        if (string.IsNullOrWhiteSpace(donoNome)) return donoNome;
+
+        if (donoNome.Length > 10)
+        {
+            donoNome = donoNome.Substring(0, 10) + "...";
+        }
+
+        return donoNome;
     }
 
     private async void searchBarChanged(object sender, TextChangedEventArgs e)

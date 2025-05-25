@@ -21,7 +21,7 @@
               TextColor="#513635">
 
                 <Label.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="ChangingPageConsults"/>
+                    <TapGestureRecognizer Tapped="ChangingPageSpecies"/>
                 </Label.GestureRecognizers>
 
             </Label>
@@ -35,190 +35,29 @@
             <Label
               x:Name="lblTitle"
               HorizontalTextAlignment="Center"
-              Text="Agendamento de consulta"
+              Text="Adicionar espécie"
               Margin="0,-25,0,15"
               FontSize="35"
               TextColor="#513635"/>
 
             <Label 
-            x:Name="lblPet"
-            Text="Informe para qual Pet será marcado"
+            x:Name="lblEspecie"
+            Text="Nome da espécie"
             WidthRequest="350"
             Margin="0, 35, 0, 0"/>
 
-            <Picker
-              x:Name="pkPet"
-              WidthRequest="350">
-
-                <Picker.ItemsSource>
-
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Pet 1</x:String>
-                        <x:String>Pet 2</x:String>
-                        <x:String>Pet 3</x:String>
-                        <x:String>Pet 4</x:String>
-                        <x:String>Pet 5</x:String>
-                    </x:Array>
-
-                </Picker.ItemsSource>
-
-            </Picker>
-
-            <Label 
-            x:Name="lblData"
-            Text="Data"
+            <Entry
+            x:Name="etrEspecie"
             WidthRequest="350"/>
-
-            <DatePicker
-            x:Name="dpData"
-            WidthRequest="350">
-            </DatePicker>
-
-            <Label 
-               x:Name="lblTipo"
-               Text="Tipo de agendamento"
-               WidthRequest="350"/>
-
-            <Grid
-               RowDefinitions="Auto,Auto"
-               ColumnDefinitions="Auto,*"
-               WidthRequest="350">
-
-                <RadioButton
-                  Grid.Row="1"
-                  Grid.ColumnSpan="1"
-                  x:Name="cbBath"
-                  Scale=".75"
-                  WidthRequest="350"
-                  TranslationX="-50">
-                </RadioButton>
-
-                <Label 
-                 Grid.Row="1"
-                 Grid.ColumnSpan="1"
-                 x:Name="lblBath"
-                 Text="Banho e tosa"
-                 WidthRequest="250"
-                 TranslationX="-30"
-                 TranslationY="11"/>
-
-                <RadioButton
-                  Grid.Row="1"
-                  Grid.ColumnSpan="2"
-                  x:Name="cbTraining"
-                  Scale=".75"
-                  WidthRequest="350"
-                  TranslationX="68">
-                </RadioButton>
-
-                <Label 
-                 Grid.Row="1"
-                 Grid.ColumnSpan="2"
-                 x:Name="lblTraining"
-                 Text="Treinamento"
-                 WidthRequest="250"
-                 TranslationX="85"
-                 TranslationY="11"/>
-
-                <RadioButton
-                  Grid.Row="1"
-                  Grid.ColumnSpan="2"
-                  x:Name="cbVaccine"
-                  Scale=".75"
-                  WidthRequest="300"
-                  TranslationX="170">
-                </RadioButton>
-
-                <Label 
-                 Grid.Row="1"
-                 Grid.ColumnSpan="1"
-                 x:Name="lblVaccine"
-                 Text="Vacina"
-                 WidthRequest="250"
-                 TranslationX="210"
-                 TranslationY="11"/>
-
-                <!-- ============== Linha 2 ============== -->
-
-                <RadioButton
-                  Grid.RowSpan="2"
-                  Grid.ColumnSpan="1"
-                  x:Name="cbExam"
-                  Scale=".75"
-                  WidthRequest="350"
-                  TranslationX="-50"
-                  TranslationY="40">
-                </RadioButton>
-
-                <Label 
-                 Grid.Row="2"
-                 Grid.ColumnSpan="1"
-                 x:Name="lblExam"
-                 Text="Exame"
-                 WidthRequest="250"
-                 TranslationX="-30"
-                 TranslationY="51"/>
-
-                <RadioButton
-                  Grid.Row="2"
-                  Grid.ColumnSpan="2"
-                  x:Name="cbFun"
-                  Scale=".75"
-                  WidthRequest="350"
-                  TranslationX="68"
-                  TranslationY="40">
-                </RadioButton>
-
-                <Label 
-                 Grid.Row="2"
-                 Grid.ColumnSpan="1"
-                 x:Name="lblFun"
-                 Text="Recreamento"
-                 WidthRequest="250"
-                 TranslationX="85"
-                 TranslationY="51"/>
-
-                <RadioButton
-                  Grid.Row="1"
-                  Grid.ColumnSpan="3"
-                  x:Name="cbAdInten"
-                  Scale=".75"
-                  WidthRequest="350"
-                  TranslationX="190"
-                  TranslationY="40">
-                </RadioButton>
-
-                <Label 
-                 Grid.Row="2"
-                 Grid.ColumnSpan="1"
-                 x:Name="lblAdInten"
-                 Text="Adestramento"
-                 WidthRequest="250"
-                 TranslationX="210"
-                 TranslationY="51"/>
-
-            </Grid>
-
-            <Label 
-            Margin="0, 45, 0, 0"
-            x:Name="lblSobre"
-            Text="Observações (opcional)"
-            WidthRequest="350"/>
-
-            <Editor
-              WidthRequest="350"
-              AutoSize="TextChanges"
-              x:Name="edSobre">
-            </Editor>
 
             <Button
               x:Name="btnConcluir"
-              Text="Agendar"
+              Text="Adicionar"
               WidthRequest="250"
               TranslationY="50"
               Margin="0,0,0,50"
               BackgroundColor="#513635"
-              Clicked="ChangingPageConsults"/>
+              Clicked="btnConcluir_Clicked"/>
 
         </VerticalStackLayout>
     </ScrollView>

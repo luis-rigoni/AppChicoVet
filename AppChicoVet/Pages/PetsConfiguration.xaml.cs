@@ -1,29 +1,65 @@
 using AppChicoVet.Models;
 using AppChicoVet.Helpers;
 using System;
+using SQLite;
+using System.IO;
+using System.Linq;
+using Microsoft.Maui.Storage;
 
 namespace AppChicoVet.Pages
 {
     public partial class PetsConfiguration : ContentPage
     {
         private Animal _animalSelecionado;
+        private string _especieSelecionada;
+        private string _donoSelecionado;
 
         public PetsConfiguration()
         {
             InitializeComponent();
             pkEspecie.SelectedIndexChanged += PkEspecie_SelectedIndexChanged;
+            CarregarEspecies();
+            CarregarClientes();
         }
 
-        public PetsConfiguration(Animal animal) : this()
+        public PetsConfiguration(Animal animal, string especie, string dono) : this()
         {
             _animalSelecionado = animal;
+            _especieSelecionada = especie;
+            _donoSelecionado = dono;
             PreencherCampos();
+        }
+
+        private void CarregarEspecies()
+        {
+            var path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "db_veterinario.db3");
+            var db = new SQLiteConnection(path);
+            var especies = db.Table<Especie>().ToList();
+            pkEspecie.ItemsSource = especies.Select(e => e.espNome).ToList();
+        }
+
+        private void CarregarClientes()
+        {
+            var path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "db_veterinario.db3");
+            var db = new SQLiteConnection(path);
+            var clientes = db.Table<Cliente>().ToList();
+            pkDono.ItemsSource = clientes.Select(c => c.cliNome).ToList();
         }
 
         private void PreencherCampos()
         {
             etrNome.Text = _animalSelecionado.aniNome;
             etrApelido.Text = _animalSelecionado.aniApelido;
+
+            switch (_animalSelecionado.aniGenero.ToLower())
+            {
+                case "feminino":
+                    rbFeminino.IsChecked = true;
+                    break;
+                case "masculino":
+                    rbMasculino.IsChecked = true;
+                    break;
+            }
 
             try
             {
@@ -36,7 +72,8 @@ namespace AppChicoVet.Pages
             catch
             { }
 
-            pkEspecie.SelectedItem = _animalSelecionado.aniEspecie;
+            pkEspecie.SelectedItem = _especieSelecionada;
+            pkDono.SelectedItem = _donoSelecionado;
 
             if (!string.IsNullOrEmpty(_animalSelecionado.aniImagem))
             {
@@ -58,6 +95,7 @@ namespace AppChicoVet.Pages
             _animalSelecionado.aniDataNasc = dpNasc.Date;
 
             _animalSelecionado.aniEspecie = pkEspecie.SelectedItem.ToString();
+            _animalSelecionado.aniDono = pkDono.SelectedItem.ToString();
 
             if (chkExcluirPet.IsChecked)
             {
@@ -139,27 +177,27 @@ namespace AppChicoVet.Pages
 
             if (imagemPadrao)
             {
-                switch (especieSelecionada)
+                switch (especieSelecionada.ToLower())
                 {
-                    case "Cachorro":
+                    case "cachorro":
                         imagemDoPet = "canine.png";
                         break;
-                    case "Gato":
+                    case "gato":
                         imagemDoPet = "feline.png";
                         break;
-                    case "Pássaro":
+                    case "pássaro":
                         imagemDoPet = "bird.png";
                         break;
-                    case "Roedor":
+                    case "roedor":
                         imagemDoPet = "roedor.png";
                         break;
-                    case "Tartaruga":
+                    case "tartaruga":
                         imagemDoPet = "turtle.png";
                         break;
-                    case "Lagarto":
+                    case "lagarto":
                         imagemDoPet = "lizard.png";
                         break;
-                    case "Cobra":
+                    case "cobra":
                         imagemDoPet = "snake.png";
                         break;
                     default:

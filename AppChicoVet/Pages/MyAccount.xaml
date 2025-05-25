@@ -39,7 +39,7 @@
                 Text="+ Cadastrar cliente"
                 HorizontalOptions="Center"
                 HorizontalTextAlignment="Center"
-                Margin="0, -10, 0, -25">
+                Margin="0, -10, 0, -5">
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="NewAccount"/>
                 </Label.GestureRecognizers>

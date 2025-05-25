@@ -42,8 +42,8 @@ public partial class MyAccount : ContentPage
             cardsContainer.Children.Add(new Label
             {
                 Text = "Sem registros.",
-                FontSize = 16,
                 TextColor = Colors.Gray,
+                FontSize = 18,
                 HorizontalOptions = LayoutOptions.Center,
                 Margin = new Thickness(0, 20)
             });
@@ -56,13 +56,13 @@ public partial class MyAccount : ContentPage
             Padding = new Thickness(10),
             ColumnDefinitions =
             {
-                new ColumnDefinition { Width = 225 },
+                new ColumnDefinition { Width = 220 },
                 new ColumnDefinition { Width = 200 },
                 new ColumnDefinition { Width = 200 },
                 new ColumnDefinition { Width = 200 },
                 new ColumnDefinition { Width = 100 },
                 new ColumnDefinition { Width = 200 },
-                new ColumnDefinition { Width = 215 }
+                new ColumnDefinition { Width = 225 }
             }
         };
 

@@ -21,7 +21,7 @@
              TextColor="#513635">
 
                 <Label.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="BackToConsults"/>
+                    <TapGestureRecognizer Tapped="BackToSpecies"/>
                 </Label.GestureRecognizers>
 
             </Label>
@@ -35,103 +35,60 @@
             <Label
                x:Name="lblTitle"
                HorizontalTextAlignment="Center"
-               Text="Detalhes da Consulta"
+               Text="Configurações da espécie"
                Margin="0,-25,0,15"
                FontSize="35"
                TextColor="#513635"/>
 
             <Label 
-             x:Name="lblNomeTitle"
-             Text="Nome do Pet"
-             TextColor="#513635"
-             FontAttributes="Bold"
-             WidthRequest="350"/>
+            x:Name="lblEspecie"
+            Text="Nome da espécie"
+            WidthRequest="350"
+            Margin="0, 35, 0, 0"/>
 
-            <Label 
-             x:Name="lblNome"
-             Text="(Nome do animal)"
-             Margin="0, -15, 0, 0"
-             WidthRequest="350"/>
-
-            <Label 
-             x:Name="lblCategoriaTitle"
-             Text="Categoria"
-             TextColor="#513635"
-             FontAttributes="Bold"
-             WidthRequest="350"/>
-
-            <Label 
-             x:Name="lblCategoria"
-             Text="(Categoria de consulta)"
-             Margin="0, -15, 0, 0"
-             WidthRequest="350"/>
-
-            <Label 
-             x:Name="lblTempoTitle"
-             Text="Tempo estimado de finalização"
-             TextColor="#513635"
-             FontAttributes="Bold"
-             WidthRequest="350"/>
-
-            <Label 
-             x:Name="lblTempo"
-             Text="0h 20m"
-             Margin="0, -15, 0, 0"
-             WidthRequest="350"/>
-
-            <Label 
-             x:Name="lblStatusTitle"
-             Text="Status"
-             TextColor="#513635"
-             FontAttributes="Bold"
-             WidthRequest="350"/>
-
-            <Label 
-             x:Name="lblStatus"
-             Text="Em andamento!"
-             Margin="0, -15, 0, 0"
-             WidthRequest="350"/>
-
-            <Label 
-             x:Name="lblEquipeTitle"
-             Text="Equipe responsável"
-             TextColor="#513635"
-             FontAttributes="Bold"
-             WidthRequest="350"/>
-
-            <Label 
-             x:Name="lblEquipe"
-             Text="Funcionário 1, Funcionário 2, Funcionário 3"
-             Margin="0, -15, 0, 0"
-             WidthRequest="350"/>
-
-            <Label 
-             x:Name="lblMapaTitle"
-             Text="Ver no mapa em tempo real"
-             HorizontalTextAlignment="Center"
-             Margin="0, 15, 0, 0"
-             TextColor="#513635"
-             FontAttributes="Bold"
-             WidthRequest="350"/>
-
-            <Entry 
-            x:Name="lblMapa"
-            Text="(Google maps)"
-            HorizontalTextAlignment="Center"
-            IsReadOnly="True"
-            Margin="0, -5, 0, 0"
-            WidthRequest="200"
-            HeightRequest="200"
-            BackgroundColor="Beige"/>
+            <Entry
+            x:Name="etrEspecie"
+            WidthRequest="350"/>
 
             <Button
              x:Name="btnConcluir"
-             Text="Voltar"
+             Text="Confirmar"
              WidthRequest="250"
              TranslationY="50"
              Margin="0,-35,0,50"
              BackgroundColor="#513635"
-             Clicked="BackToConsults"/>
+             Clicked="btnConcluir_Clicked"/>
+
+            <Grid
+               RowDefinitions="Auto,Auto"
+               ColumnDefinitions="Auto,*"
+               WidthRequest="350"
+               Margin="0, 55, 0, 0">
+
+                <Label
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Text="ATENÇÃO: Ação irreversível"
+                    TextColor="Gray"
+                    TranslationX="45"/>
+
+                <CheckBox
+                  x:Name="chkExcluirConta"
+                  Grid.Row="1"
+                  Grid.Column="0"
+                  Scale=".75"
+                  Color="DarkRed"
+                  TranslationX="115"/>
+
+                <Label
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Text="Excluir espécie"
+                    TextColor="DarkRed"
+                    TranslationY="11"
+                    TranslationX="105"/>
+
+            </Grid>
 
         </VerticalStackLayout>
     </ScrollView>

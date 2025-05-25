@@ -67,7 +67,6 @@ namespace AppChicoVet.Pages
             }
 
             await App.Db.Update(_clienteSelecionado);
-            await DisplayAlert("Sucesso", "Informações atualizadas com sucesso.", "OK");
             await Navigation.PopAsync();
         }
     }

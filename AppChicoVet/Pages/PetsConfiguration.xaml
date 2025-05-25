@@ -35,14 +35,14 @@
             <Label
                x:Name="lblTitle"
                HorizontalTextAlignment="Center"
-               Text="Detalhes do Pet"
+               Text="Configurar animal"
                Margin="0,-25,0,15"
                FontSize="35"
                TextColor="#513635"/>
 
             <Label 
              x:Name="lblFoto"
-             Text="Foto do Pet"
+             Text="Foto do animal"
              WidthRequest="250"/>
 
             <Button
@@ -76,7 +76,7 @@
 
             <Label 
              x:Name="lblNome"
-             Text="Nome do Pet"
+             Text="Nome do animal"
              WidthRequest="350"/>
             <Entry
              x:Name="etrNome"
@@ -85,7 +85,7 @@
 
             <Label 
              x:Name="lblApelido"
-             Text="Apelido do Pet"
+             Text="Apelido do animal"
              WidthRequest="350"/>
             <Entry
              x:Name="etrApelido"
@@ -94,7 +94,7 @@
 
             <Label 
              x:Name="lblNasc"
-             Text="Data de Nascimento"
+             Text="Data de nascimento"
              WidthRequest="350"/>
             
             <DatePicker
@@ -146,6 +146,24 @@
             </Grid>
 
             <Label 
+             x:Name="lblDono"
+             Text="Responsável pelo animal"
+             WidthRequest="350"/>
+
+            <Picker
+               x:Name="pkDono"
+               WidthRequest="350">
+
+                <Picker.ItemsSource>
+
+                    <x:Array Type="{x:Type x:String}">
+                    </x:Array>
+
+                </Picker.ItemsSource>
+
+            </Picker>
+
+            <Label 
              x:Name="lblEspecie"
              Text="Espécie"
              WidthRequest="350"/>
@@ -155,12 +173,6 @@
                WidthRequest="350">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
-                        <x:String>Cachorro</x:String>
-                        <x:String>Gato</x:String>
-                        <x:String>Pássaro</x:String>
-                        <x:String>Roedor</x:String>
-                        <x:String>Tartaruga</x:String>
-                        <x:String>Largarto</x:String>
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
@@ -195,7 +207,7 @@
                 <Label
                    Grid.Row="1"
                    Grid.Column="1"
-                   Text="Excluir pet"
+                   Text="Excluir animal"
                    TextColor="DarkRed"
                    TranslationY="11"
                    TranslationX="105"/>

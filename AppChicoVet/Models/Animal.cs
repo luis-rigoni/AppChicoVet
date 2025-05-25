@@ -27,7 +27,7 @@ namespace AppChicoVet.Models
 
         public string aniObservacoes { get; set; }
 
-        public string aniStatus { get; set; }
+        public string aniDono { get; set; }
 
     }
 }
