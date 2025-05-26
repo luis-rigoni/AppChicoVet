@@ -43,7 +43,7 @@ namespace AppChicoVet.Pages
         private async void btnSalvarClicked(object sender, EventArgs e)
         {
             string especieSelecionada = pkEspecie.SelectedItem?.ToString() ?? "empty";
-            string donoSelecionado = pkDono.SelectedItem?.ToString() ?? "empty";
+            string donoSelecionado = pkDono.SelectedItem?.ToString() ?? "Indefinido";
             string imagemDoPet = string.Empty;
 
             if (!string.IsNullOrEmpty(_caminhoImagemSelecionada))
