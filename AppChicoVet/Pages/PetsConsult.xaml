@@ -49,8 +49,7 @@
                 <VerticalStackLayout
                     x:Name="cardsContainer"
                     Spacing="5"
-                    Padding="2"
-                    WidthRequest="600"/>
+                    Padding="2"/>
             </ScrollView>
 
         </VerticalStackLayout>

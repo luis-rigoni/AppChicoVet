@@ -57,12 +57,7 @@ public partial class MyAccount : ContentPage
             ColumnDefinitions =
             {
                 new ColumnDefinition { Width = 220 },
-                new ColumnDefinition { Width = 200 },
-                new ColumnDefinition { Width = 200 },
-                new ColumnDefinition { Width = 200 },
-                new ColumnDefinition { Width = 100 },
-                new ColumnDefinition { Width = 200 },
-                new ColumnDefinition { Width = 225 }
+                new ColumnDefinition { Width = 80 }
             }
         };
 
@@ -71,33 +66,33 @@ public partial class MyAccount : ContentPage
         Grid.SetRow(labelNome, 0);
         headerGrid.Children.Add(labelNome);
 
-        var labelCpf = new Label { Text = "CPF", TextColor = Colors.White, FontAttributes = FontAttributes.Bold };
-        Grid.SetColumn(labelCpf, 1);
-        Grid.SetRow(labelCpf, 0);
-        headerGrid.Children.Add(labelCpf);
+        //var labelCpf = new Label { Text = "CPF", TextColor = Colors.White, FontAttributes = FontAttributes.Bold };
+        //Grid.SetColumn(labelCpf, 1);
+        //Grid.SetRow(labelCpf, 0);
+        //headerGrid.Children.Add(labelCpf);
 
-        var labelEmail = new Label { Text = "Email", TextColor = Colors.White, FontAttributes = FontAttributes.Bold };
-        Grid.SetColumn(labelEmail, 2);
-        Grid.SetRow(labelEmail, 0);
-        headerGrid.Children.Add(labelEmail);
+        //var labelEmail = new Label { Text = "Email", TextColor = Colors.White, FontAttributes = FontAttributes.Bold };
+        //Grid.SetColumn(labelEmail, 2);
+        //Grid.SetRow(labelEmail, 0);
+        //headerGrid.Children.Add(labelEmail);
 
-        var labelTelefone = new Label { Text = "Telefone", TextColor = Colors.White, FontAttributes = FontAttributes.Bold };
-        Grid.SetColumn(labelTelefone, 3);
-        Grid.SetRow(labelTelefone, 0);
-        headerGrid.Children.Add(labelTelefone);
+        //var labelTelefone = new Label { Text = "Telefone", TextColor = Colors.White, FontAttributes = FontAttributes.Bold };
+        //Grid.SetColumn(labelTelefone, 3);
+        //Grid.SetRow(labelTelefone, 0);
+        //headerGrid.Children.Add(labelTelefone);
 
-        var labelIdade = new Label { Text = "Idade", TextColor = Colors.White, FontAttributes = FontAttributes.Bold };
-        Grid.SetColumn(labelIdade, 4);
-        Grid.SetRow(labelIdade, 0);
-        headerGrid.Children.Add(labelIdade);
+        //var labelIdade = new Label { Text = "Idade", TextColor = Colors.White, FontAttributes = FontAttributes.Bold };
+        //Grid.SetColumn(labelIdade, 4);
+        //Grid.SetRow(labelIdade, 0);
+        //headerGrid.Children.Add(labelIdade);
 
-        var labelCadastro = new Label { Text = "Cadastro", TextColor = Colors.White, FontAttributes = FontAttributes.Bold };
-        Grid.SetColumn(labelCadastro, 5);
-        Grid.SetRow(labelCadastro, 0);
-        headerGrid.Children.Add(labelCadastro);
+        //var labelCadastro = new Label { Text = "Cadastro", TextColor = Colors.White, FontAttributes = FontAttributes.Bold };
+        //Grid.SetColumn(labelCadastro, 2);
+        //Grid.SetRow(labelCadastro, 0);
+        //headerGrid.Children.Add(labelCadastro);
 
         var labelAcoes = new Label { Text = "Ações", TextColor = Colors.White, FontAttributes = FontAttributes.Bold };
-        Grid.SetColumn(labelAcoes, 6);
+        Grid.SetColumn(labelAcoes, 1);
         Grid.SetRow(labelAcoes, 0);
         headerGrid.Children.Add(labelAcoes);
 
@@ -143,39 +138,39 @@ public partial class MyAccount : ContentPage
 
 
 
-            var lblEmail = new Label
-            {
-                Text = cliente.cliEmail,
-                FontSize = 13,
-                LineBreakMode = LineBreakMode.TailTruncation
-            };
-            Grid.SetColumn(lblEmail, 2);
-            Grid.SetRow(lblEmail, 0);
-            rowGrid.Children.Add(lblEmail);
+            //var lblEmail = new Label
+            //{
+            //    Text = cliente.cliEmail,
+            //    FontSize = 13,
+            //    LineBreakMode = LineBreakMode.TailTruncation
+            //};
+            //Grid.SetColumn(lblEmail, 2);
+            //Grid.SetRow(lblEmail, 0);
+            //rowGrid.Children.Add(lblEmail);
 
 
 
-            var lblTelefone = new Label
-            {
-                Text = cliente.cliTelefone,
-                FontSize = 13,
-                LineBreakMode = LineBreakMode.TailTruncation
-            };
-            Grid.SetColumn(lblTelefone, 3);
-            Grid.SetRow(lblTelefone, 0);
-            rowGrid.Children.Add(lblTelefone);
+            //var lblTelefone = new Label
+            //{
+            //    Text = cliente.cliTelefone,
+            //    FontSize = 13,
+            //    LineBreakMode = LineBreakMode.TailTruncation
+            //};
+            //Grid.SetColumn(lblTelefone, 3);
+            //Grid.SetRow(lblTelefone, 0);
+            //rowGrid.Children.Add(lblTelefone);
 
 
 
-            var lblIdade = new Label
-            {
-                Text = idade + (idade > 1 ? " anos" : " ano"),
-                FontSize = 13,
-                LineBreakMode = LineBreakMode.TailTruncation
-            };
-            Grid.SetColumn(lblIdade, 4);
-            Grid.SetRow(lblIdade, 0);
-            rowGrid.Children.Add(lblIdade);
+            //var lblIdade = new Label
+            //{
+            //    Text = idade + (idade > 1 ? " anos" : " ano"),
+            //    FontSize = 13,
+            //    LineBreakMode = LineBreakMode.TailTruncation
+            //};
+            //Grid.SetColumn(lblIdade, 4);
+            //Grid.SetRow(lblIdade, 0);
+            //rowGrid.Children.Add(lblIdade);
 
 
 
@@ -185,7 +180,7 @@ public partial class MyAccount : ContentPage
                 FontSize = 13,
                 LineBreakMode = LineBreakMode.TailTruncation
             };
-            Grid.SetColumn(lblCadastro, 5);
+            Grid.SetColumn(lblCadastro, 2);
             Grid.SetRow(lblCadastro, 0);
             rowGrid.Children.Add(lblCadastro);
 
@@ -198,13 +193,13 @@ public partial class MyAccount : ContentPage
                 TextColor = Colors.White,
                 FontSize = 12,
                 Padding = 2,
-                HeightRequest = 10
+                HeightRequest = 40
             };
             btnDetalhes.Clicked += async (s, e) =>
             {
                 await Navigation.PushAsync(new AccountConfiguration(cliente));
             };
-            Grid.SetColumn(btnDetalhes, 6);
+            Grid.SetColumn(btnDetalhes, 3);
             Grid.SetRow(btnDetalhes, 0);
             rowGrid.Children.Add(btnDetalhes);
 

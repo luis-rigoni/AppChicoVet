@@ -48,8 +48,8 @@ namespace AppChicoVet.Pages
                 Padding = new Thickness(10),
                 ColumnDefinitions =
                 {
-                    new ColumnDefinition { Width = 400 },
-                    new ColumnDefinition { Width = 175 },
+                    new ColumnDefinition { Width = 220 },
+                    new ColumnDefinition { Width = 80 },
                 }
             };
 
