@@ -45,7 +45,9 @@ public partial class MyAccount : ContentPage
                 TextColor = Colors.Gray,
                 FontSize = 18,
                 HorizontalOptions = LayoutOptions.Center,
-                Margin = new Thickness(0, 20)
+                Margin = new Thickness(0, 20),
+                WidthRequest = 300,
+                TranslationX = 105
             });
             return;
         }
