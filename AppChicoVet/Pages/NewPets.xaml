@@ -35,14 +35,14 @@
             <Label
                x:Name="lblTitle"
                HorizontalTextAlignment="Center"
-               Text="Cadastro de Pet"
+               Text="Cadastro de animal"
                Margin="0,-25,0,15"
                FontSize="35"
                TextColor="#513635"/>
 
             <Label 
             x:Name="lblFoto"
-            Text="Foto do Pet"
+            Text="Foto do animal"
             WidthRequest="350"/>
 
             <Label 
@@ -86,7 +86,7 @@
 
             <Label 
              x:Name="lblNome"
-             Text="Nome do Pet"
+             Text="Nome do animal"
              WidthRequest="350"/>
 
             <Entry
@@ -96,7 +96,7 @@
 
             <Label 
              x:Name="lblApelido"
-             Text="Apelido do Pet (opcional)"
+             Text="Apelido do animal (opcional)"
              WidthRequest="350"/>
 
             <Entry
@@ -106,7 +106,7 @@
 
             <Label 
              x:Name="lblNasc"
-             Text="Data de Nascimento"
+             Text="Data de nascimento"
              WidthRequest="350"/>
 
             <DatePicker
@@ -198,7 +198,7 @@
 
             <Label 
              x:Name="lblSobre"
-             Text="Observações do Pet"
+             Text="Observações do animal"
              WidthRequest="350"/>
 
             <Label 
@@ -217,7 +217,7 @@
 
             <Button
                x:Name="btnSalvar"
-               Text="Adicionar Pet"
+               Text="Adicionar animal"
                WidthRequest="250"
                TranslationY="50"
                Margin="0,0,0,50"

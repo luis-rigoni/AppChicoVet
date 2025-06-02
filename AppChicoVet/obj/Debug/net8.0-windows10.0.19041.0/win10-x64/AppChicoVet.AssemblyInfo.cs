@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppChicoVet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d66f5c6b3b750fe27478c4e3184d3ea11c3a3421")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+26bf567335b680291172b4c27f5a9c7a7f942a8a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppChicoVet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppChicoVet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
