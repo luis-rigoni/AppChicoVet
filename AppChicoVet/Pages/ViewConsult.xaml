@@ -35,7 +35,7 @@
             <Label
                x:Name="lblTitle"
                HorizontalTextAlignment="Center"
-               Text="Configurações da espécie"
+               Text="Configuração de espécie"
                Margin="0,-25,0,15"
                FontSize="35"
                TextColor="#513635"/>
