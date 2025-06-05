@@ -98,7 +98,7 @@ namespace AppChicoVet.Pages
             dbConnection.CreateTable<Animal>();
             dbConnection.Insert(novoPet);
 
-            await DisplayAlert("Sucesso", "Pet adicionado com sucesso.", "OK");
+            await DisplayAlert("Sucesso", "Animal adicionado com sucesso.", "OK");
             await Navigation.PushAsync(new MyPets());
         }
 
