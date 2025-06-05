@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppChicoVet.Pages.MyUsers"
+             Title="MyUsers">
+
+    <ScrollView>
+        <VerticalStackLayout
+           Padding="30,0"
+           Spacing="25">
+
+            <Image
+               x:Name="MainIcon"
+               Source="users.png"
+               WidthRequest="100"
+               HeightRequest="100"
+               HorizontalOptions="Center"
+               Margin="0, 40, 0, 10"/>
+
+            <Label
+               x:Name="MainTitle"
+               FontSize="30"
+               Text="Usuários"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold"
+               TranslationY="-10"
+               TextColor="#513635"
+               Margin="0, -20, 0, 0"/>
+
+            <SearchBar 
+               x:Name="searchBar"
+               Placeholder="Pesquisar"
+               WidthRequest="350"
+               Margin="0, -10, 0, 50"
+               TextChanged="searchBarChanged"/>
+
+            <Label
+               FontSize="20"
+               Text="+ Cadastrar usuário"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               Margin="0, -10, 0, -5">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="NewUser"/>
+                </Label.GestureRecognizers>
+            </Label>
+
+            <ScrollView Orientation="Horizontal">
+                <VerticalStackLayout
+                   x:Name="cardsContainer"
+                   Spacing="5"
+                   Padding="2"/>
+            </ScrollView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

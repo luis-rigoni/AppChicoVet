@@ -183,7 +183,7 @@
                 <Label
                     Grid.Row="1"
                     Grid.Column="1"
-                    Text="Excluir conta"
+                    Text="Excluir cliente"
                     TextColor="DarkRed"
                     TranslationY="11"
                     TranslationX="105"/>

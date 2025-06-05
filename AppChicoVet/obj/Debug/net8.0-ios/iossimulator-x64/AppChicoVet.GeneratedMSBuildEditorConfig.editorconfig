@@ -66,6 +66,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppChicoVet.Pages.MyPets.x
 build_metadata.AdditionalFiles.TargetPath = Pages\MyPets.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\MyPets.xaml
 
+[C:/Users/luisb/source/repos/AppChicoVet/AppChicoVet/Pages/MyUsers.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppChicoVet.Pages.MyUsers.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MyUsers.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MyUsers.xaml
+
 [C:/Users/luisb/source/repos/AppChicoVet/AppChicoVet/Pages/NewAccount.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppChicoVet.Pages.NewAccount.xaml
@@ -84,6 +90,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppChicoVet.Pages.NewPets.
 build_metadata.AdditionalFiles.TargetPath = Pages\NewPets.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\NewPets.xaml
 
+[C:/Users/luisb/source/repos/AppChicoVet/AppChicoVet/Pages/NewUser.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppChicoVet.Pages.NewUser.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\NewUser.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\NewUser.xaml
+
 [C:/Users/luisb/source/repos/AppChicoVet/AppChicoVet/Pages/PetsConfiguration.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppChicoVet.Pages.PetsConfiguration.xaml
@@ -95,6 +107,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppChicoVet.Pages.PetsConsult.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\PetsConsult.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\PetsConsult.xaml
+
+[C:/Users/luisb/source/repos/AppChicoVet/AppChicoVet/Pages/UserConfiguration.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppChicoVet.Pages.UserConfiguration.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\UserConfiguration.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\UserConfiguration.xaml
 
 [C:/Users/luisb/source/repos/AppChicoVet/AppChicoVet/Pages/ViewConsult.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

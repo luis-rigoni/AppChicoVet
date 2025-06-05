@@ -20,6 +20,7 @@ namespace AppChicoVet.Helpers
             _connection.CreateTableAsync<Animal>().Wait();
             _connection.CreateTableAsync<Cliente>().Wait();
             _connection.CreateTableAsync<Especie>().Wait();
+            _connection.CreateTableAsync<Usuario>().Wait();
         }
 
         public Task<int> Insert(Animal p)
@@ -37,6 +38,11 @@ namespace AppChicoVet.Helpers
             return _connection.InsertAsync(p);
         }
 
+        public Task<int> Insert(Usuario p)
+        {
+            return _connection.InsertAsync(p);
+        }
+
         public Task<int> Update(Animal p)
         {
             return _connection.UpdateAsync(p);
@@ -48,6 +54,11 @@ namespace AppChicoVet.Helpers
         }
 
         public Task<int> Update(Especie p)
+        {
+            return _connection.UpdateAsync(p);
+        }
+
+        public Task<int> Update(Usuario p)
         {
             return _connection.UpdateAsync(p);
         }
@@ -70,6 +81,12 @@ namespace AppChicoVet.Helpers
             return _connection.ExecuteAsync(sql, p);
         }
 
+        public Task<int> DeleteUsuario(int p)
+        {
+            string sql = "DELETE FROM Usuario WHERE userId=?";
+            return _connection.ExecuteAsync(sql, p);
+        }
+
         public Task<List<Animal>> GetAll()
         {
             return _connection.Table<Animal>().ToListAsync();
@@ -86,6 +103,10 @@ namespace AppChicoVet.Helpers
         public Task<List<Especie>> GetAllEspecies()
         {
             return _connection.Table<Especie>().ToListAsync();
+        }
+        public Task<List<Usuario>> GetAllUsuarios()
+        {
+            return _connection.Table<Usuario>().ToListAsync();
         }
 
         public Task<List<Animal>> Search(string p)
@@ -104,6 +125,11 @@ namespace AppChicoVet.Helpers
         {
             string sql = "SELECT * FROM Especie WHERE espNome LIKE ?";
             return _connection.QueryAsync<Especie>(sql, "%" + p + "%");
+        }
+        public Task<List<Usuario>> SearchUsuario(string p)
+        {
+            string sql = "SELECT * FROM Usuario WHERE userNome LIKE ?";
+            return _connection.QueryAsync<Usuario>(sql, "%" + p + "%");
         }
 
     }

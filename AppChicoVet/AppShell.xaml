@@ -91,6 +91,12 @@
                     Route="PetsConsult"
                     Icon="petsconsult.png"/>
 
+        <ShellContent 
+		            Title="Usuários"
+                    ContentTemplate="{DataTemplate local:Pages.MyUsers}"
+                    Route="MyUsers"
+                    Icon="users.png"/>
+
     </FlyoutItem>
 
     <ShellContent 
